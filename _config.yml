@@ -2,13 +2,9 @@
 title: han kim
 email: hankim [at] caltech [dot] edu
 description: neuro grad student
-github_username: hanhanhan-kim
-twitter_username: hanhanhan_kim
 
 # Build settings:
 theme: jekyll-theme-minimal
 markdown: kramdown
 plugins:
   - jemoji
-gems:
-  - jekyll-font-awesome-sass

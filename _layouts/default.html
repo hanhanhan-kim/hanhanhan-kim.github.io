@@ -24,14 +24,19 @@
         <p>{{ site.description | default: site.github.project_tagline }}</br>
         in the <a href="https://www.beetles.caltech.edu/">Parker Lab</a> at Caltech</p>
 
-        {% if site.github.is_project_page %}
+        <!-- {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}"> <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}"> <i class="fa fa-github"></i> GitHub </a></p>
-        {% endif %}
-    
+        <p class="view"><a href="{{ site.github.owner_url }}"> </a></p>
+        {% endif %} -->
+
+        <p class="view"></p> <a href="{{ site.github.owner_url }}"> <i class="fa fa-github fa-2x"></i> </a> &nbsp;
+        <a href="https://twitter.com/hanhanhan_kim"> <i class="fa fa-twitter fa-2x"></i> </a> </p> 
+
+        <p class="view"></p> <i class="fa fa-envelope"></i> hankim [at] caltech [dot] edu </p>
+
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -46,12 +51,9 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
+        <!-- {% if site.github.is_project_page %} -->
         <p>maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}"> <i class="fa fa-github"></i> GitHub </a></p>
-        {% endif %}
+        <!-- {% endif %} -->
         <p><small>Hosted on GitHub Pages </small></p>
       </footer>
     </div>
