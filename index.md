@@ -1,5 +1,3 @@
-layout: page
----
 [//]: # <br>
 
 # about me
