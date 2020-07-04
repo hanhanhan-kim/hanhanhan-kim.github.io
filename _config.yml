@@ -10,3 +10,5 @@ theme: jekyll-theme-minimal
 markdown: kramdown
 plugins:
   - jemoji
+gems:
+  - jekyll-font-awesome-sass
