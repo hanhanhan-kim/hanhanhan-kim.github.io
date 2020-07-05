@@ -2,10 +2,10 @@
 title: han kim
 email: hankim [at] caltech [dot] edu
 description: neuro grad student
+# logo: assets/headshot.img
 
 # Build settings:
 theme: jekyll-theme-minimal
 markdown: kramdown
 plugins:
   - jemoji
-

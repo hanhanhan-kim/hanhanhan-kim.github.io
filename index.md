@@ -1,4 +1,6 @@
-[//]: # <br>
+---
+layout: default
+---
 
 ## about me
 My name is Han Kim. I am a PhD student in the neurobiology program at Caltech. I work in the lab of Joe Parker. 
