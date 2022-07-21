@@ -1,15 +1,11 @@
 ---
+layout: archive
 permalink: /
 title: Welcome!
 author_profile: true
 ---
 Welcome to my personal website! 
 
-In short, my website tends to do the following things:
+Here, I showcase projects I've designed and created, in addition to documenting my builds of other people's projects. I also store 'how-to's and other references. I might voice the occasional thought as well (tbd). 
 
-1. Showcase projects I've designed and created.
-2. Document my builds of other people's projects.
-3. Store 'how-to's and other references.
-4. Voice the occasional thought. 
-
-Hope you enjoy! 
+Hope you enjoy!

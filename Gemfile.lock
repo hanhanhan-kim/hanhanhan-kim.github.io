@@ -264,6 +264,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jemoji
   minimal-mistakes-jekyll
   webrick (~> 1.7)
 
