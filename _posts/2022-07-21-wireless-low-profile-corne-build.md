@@ -49,8 +49,8 @@ I printed the case in [ColorFabb's woodfill PLA](https://colorfabb.com/woodfill)
 I added some choc purpz (25 g) switches, as well as some MBK low profile keycaps. 
 
 <figure class="half">
-    <a href="/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-10.png"><img src="/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-8.png"></a>
-    <a href="/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-11.png"><img src="/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-9.png"></a>
+    <a href="/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-10.png"><img src="/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-10.png"></a>
+    <a href="/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-11.png"><img src="/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-11.png"></a>
 </figure>
 
 I use M2.5 x 6 mm screws to screw the PCB into the integrated standoffs of the case. I think M2.5 is a little coarser than the intended threads for the case, but I was too lazy to make threads properly, so I just used the screws to shoddily ‘self-tap’ threads into the wood PLA. This lazy 'self-tapping' works out, just because PLA (even composites) are quite soft. I also use M2 x 10 mm + 6 mm (x length of standoff + length of threads), brass, to hold up the top covers that hide the µCs. 
