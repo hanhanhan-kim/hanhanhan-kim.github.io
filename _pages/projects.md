@@ -25,7 +25,7 @@ A paper I wrote for grad school on evolutionary neuroscience. In it, I talk abou
 Cases I've designed for my pet obsession: 40% ortholinear keyboards. 
 - **Planckeneko for the Planck**: A gummy o-ring gasket-mounted case for the popular [Planck](https://olkb.com/collections/planck) keyboard. Based on the cleverly designed [Bakeneko 60](https://github.com/kkatano/bakeneko-60).<br/>[ source ]
 
-- **Qlaiver for the Plaid**: A silicone burger-mounted stacked acrylic case for the Plaid keyboard, reverse engineered from [Qlavier](https://twitter.com/qlavier)'s [image gallery](https://imgur.com/a/e2AHRcN). <br/>[ source ]
+- **Qlaiver for the Plaid**: A silicone burger-mounted stacked acrylic case for the [Plaid](https://github.com/hsgw/plaid) keyboard, reverse engineered from [Qlavier](https://twitter.com/qlavier)'s [image gallery](https://imgur.com/a/e2AHRcN). <br/>[ source ]
 
 ## Bloid 40
 [ [source](https://github.com/hanhanhan-kim/bloid40) ]<br/>
