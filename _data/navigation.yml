@@ -14,3 +14,5 @@ main:
     url: /all-posts/
   - title: Projects 
     url: /projects/
+  - title: CV
+    url: /cv/
