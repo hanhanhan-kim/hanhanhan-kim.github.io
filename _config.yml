@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Han Kim"
 description              : "Han's personal website. Thoughts, builds, and projects."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://hanhanhan-kim.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : hanhanhan-kim/hanhanhan-kim.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Han Kim"
   avatar           : /assets/images/selfie_dublin.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm a Canadian neuroscience PhD student at Caltech, where I study insect ethology. More importantly, I like to build things and learn stuff. I now work as a scientific patent analyst at a major law firm. "
+  bio              : "I'm a Canadian neuroscience PhD student at Caltech, where I study insect ethology. More importantly, I like to build things and learn stuff. I really like HIDs. I now work as a scientific patent analyst at a major law firm. "
   location         : "Los Angeles, California"
   email            : 
   links:
