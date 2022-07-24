@@ -169,7 +169,9 @@ There are a few ways to see whether your devices successfully connected to the P
 pihole -c
 ```
 
-and the resulting output will be a nice command line dashboard of some key PiHole statistics. And there we have it! We have a functional PiHole going on our WiFi network!
+and the resulting output will be a nice command line dashboard of some key PiHole statistics. You're probably going to be finetuning your blocklists and whitelists, as you go about your internet life, but as a starter, a very good collection of blocklists can be found at the [firebog](https://firebog.net/). 
+
+And there we have it! We have a functional PiHole on our WiFi network!
 
 ## Make a Cool eInk Display
 If you want to be a cool kid, I'd very much recommend using the awesome [Pimoroni Inky pHAT](https://learn.pimoroni.com/article/getting-started-with-inky-phat) with your Pi Zero, so you can see critical PiHole statistics all the time on a fun eInk display! To do so, start by downloading the Inky pHAT dependencies and library onto the Pi with:
