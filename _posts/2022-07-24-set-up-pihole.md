@@ -84,7 +84,7 @@ We're going to generate the SSH key on the non-Pi machine. We start with the fol
 ssh-keygen
 ```
 
-We are going to be prompted to save the key in the default directory. That's fine, but let's rename the filename to something more meaningful than the default file name, `id_rsa` ... we're going to call it `pihole` :brain:. The return output should look something like so:
+We are going to be prompted to save the key in the default directory. That's fine, but let's rename the filename to something more meaningful than the default file name, `id_rsa` ... we're going to call it `pihole` :eye::lips::eye:. The return output should look something like so:
 
 {% include figure image_path="/assets/images/posts/2022-07-24-set-up-pihole/keygen-output.png" alt="" caption="When asked for a passphrase here, I generally just hit empty."%}
 
