@@ -148,7 +148,7 @@ One is to manually edit the IP address of the DNS server for each device connect
 
 To put a Linux machine on the PiHole network, we can edit the `/etc/resolv.conf` file to tell the machine to use the PiHole as a DNS server, by inputting the PiHole's IP address:
 
-{% include figure image_path="/assets/images/posts/2022-07-24-set-up-pihole/linus-for-pihole.png" alt="" caption="If manually trying to connect a Linux machine to the PiHole's DNS capabilities, we just comment out the original nameserver, and swap it for the IP address of the PiHole. In the case of the examples that I've shown in this blog post, it's 10.0.7.230."%}
+{% include figure image_path="/assets/images/posts/2022-07-24-set-up-pihole/linux-for-pihole.png" alt="" caption="If manually trying to connect a Linux machine to the PiHole's DNS capabilities, we just comment out the original nameserver, and swap it for the IP address of the PiHole. In the case of the examples that I've shown in this blog post, it's 10.0.7.230."%}
 
 To put an Android machine on the PiHole network, we have to go to the network settings of the WiFi network that the PiHole is on:
 
