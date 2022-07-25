@@ -1,5 +1,12 @@
 ---
 title: Setting Up PiHole
+header:
+    header: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
+    teaser: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
+    og_image: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
+    overlay_image: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
+    overlay_filter: false
+tagline: Turn a Raspberry Pi into a DNS server that swats away ads!
 ---
 
 [PiHole](https://pi-hole.net/) is a super popular Raspberry Pi project, and for good reason. It uses a Raspberry Pi as a DNS server, so it can look up any advertisement- and tracker-related IPs and send such queries to not your devices and/or home network. In addition to making internet browsing less annoying, it also makes it safer, and declogs a lot of traffic. In this post, I'm going to talk about how I set up my PiHole on a headless [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/). 
@@ -125,7 +132,8 @@ In the screenshot of the above modified `dhcpcd.conf` file, we can see that we s
 
 Once we've made the above changes to `dhcpcd.conf`, we're going to exit the terminal, and reboot the Pi (I tend to reboot the Pi physically here :woozy-face:). Then, we're going to try and SSH back into the Pi. Feel free to use the `ping` command above, first, (although it's not strictly necessary at any point). If you can SSH successfully, run the `ip address show` or some other equivalent command to check the Pi's IP address is the static one we inputted. 
 
-:bulb: _Something that's very important and worth noting is that some routers will just assign new IP addresses to devices periodically, or upon power cycling. This is generally a good thing, and it's because most routers use DHCP, or a **dynamic** host configuration protocol. In other words, even after we've changed the IP address to be the specified static one via the Pi's `dhcpcd.conf` file, the router will assign the PiHole a new IP address, but the Pi will attempt to use the same old static IP that we specified in `dhcpcd.conf`. Fortunately, there's an easy solution to this wrinkle. Pretty much all routers and mesh networks allow users to allocate certain IPs to be static. We just have to go into those router settings and set aside the static IP we want. In the case of the above examples, we're going to want to allocate the `10.0.7.230` IP address to be static, in the router settings. All router brands have different ways of setting aside static IPs, so just Google your brand to figure out how to get the router to designate a certain IP as static._
+:bulb: **FYI** :bulb:: Something that's very important and worth noting is that some routers will just assign new IP addresses to devices periodically, or upon power cycling. This is generally a good thing, and it's because most routers use DHCP, or a **dynamic** host configuration protocol. In other words, even after we've changed the IP address to be the specified static one via the Pi's `dhcpcd.conf` file, the router will assign the PiHole a new IP address, but the Pi will attempt to use the same old static IP that we specified in `dhcpcd.conf`. Fortunately, there's an easy solution to this wrinkle. Pretty much all routers and mesh networks allow users to allocate certain IPs to be static. We just have to go into those router settings and set aside the static IP we want. In the case of the above examples, we're going to want to allocate the `10.0.7.230` IP address to be static, in the router settings. All router brands have different ways of setting aside static IPs, so just Google your brand to figure out how to get the router to designate a certain IP as static.
+{: .notice--info}
 
 ## Install PiHole
 

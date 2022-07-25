@@ -1,3 +1,11 @@
+---
+header:
+    og_image: /assets/images/posts/2022-07-22-modding-the-atlas-keyboard/final.jpg
+    teaser: /assets/images/posts/2022-07-22-modding-the-atlas-keyboard/final.jpg
+    header: /assets/images/posts/2022-07-22-modding-the-atlas-keyboard/final.jpg
+    overlay_image: /assets/images/posts/2022-07-22-modding-the-atlas-keyboard/final.jpg
+    overlay_filter: false
+---
 Not too long ago, I got my hands on a Cannon Keys Atlas ortholinear keyboard, from a fellow on [r/mechmarket](https://www.reddit.com/r/mechmarket/). Although it's a beautiful keyboard, I found that the Atlas actually didn't sound that great. In this post, I talk about the mods I tried and deployed to improve the feel and acoustics of the already very handsome keyboard. Some of them I stuck with, and others I decided to ditch. 
 
 {% include figure image_path="/assets/images/posts/2022-07-22-modding-the-atlas-keyboard/stock-render.png" alt="" caption="A render from the Cannon Keys [website](https://cannonkeys.com/products/gb-atlas-keyboard)." %}

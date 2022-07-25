@@ -17,6 +17,7 @@ gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
 gem "webrick", "~> 1.7"
 gem "jemoji"
+gem "jekyll-seo-tag"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"

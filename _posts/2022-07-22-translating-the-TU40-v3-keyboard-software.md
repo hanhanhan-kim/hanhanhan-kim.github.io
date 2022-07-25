@@ -89,7 +89,8 @@ If we hit `LM2` on Layer 1, as designated in green, and then select the valueles
 
 In contrast, the the `LT2` - `LT4` values toggle the designated layer. They activate the layer, until they are hit again. For example, if we are on layer 1 and we hit `LT2`, layer 2 will be activated. In order to get back to layer 1, we are going to have to hit `LT2` again, provided that `LT2` is on layer 2. In other words, we should always encode the origin layer at the target layer, or else, we will be stuck at the target layer. 
 
- :bulb: _A simple trick to make sure you’re not stuck on a layer, after hitting_ `LT_`_, is to make the target layer have no value assigned to the key that had the_ `LT_` _value at the origin layer._
+:bulb: **FYI** :bulb:: A simple trick to make sure you’re not stuck on a layer, after hitting_ `LT_`_, is to make the target layer have no value assigned to the key that had the_ `LT_` _value at the origin layer.
+{: .notice--info}
 
 ### Key Combination
 The combination key menu lets the user combine a target key with the keys that are next to the check boxes shown below:
@@ -224,7 +225,8 @@ To pair a new device, press and hold a key with the Bluetooth value, until the r
 If the host device has been connected to the keyboard before, and still has the keyboard pairing information, but the keyboard has since deleted the host device information, the keyboard and host device will not be able to pair. In these conditions, the host device must delete the keyboard pairing information, in order to connect successfully.
 
 ## Unifying Bluetooth
- :bulb: _A simple trick to make sure you’re not stuck on a layer, after hitting_ `LT_`_, is to make the target layer have no value assigned to the key that had the_ `LT_` _value at the origin layer._
+:bulb: **FYI** :bulb: A simple trick to make sure you’re not stuck on a layer, after hitting_ `LT_`_, is to make the target layer have no value assigned to the key that had the_ `LT_` _value at the origin layer.
+{: .notice--info}
 
 The Unifying Bluetooth section applies to the Unifying Bluetooth version of the keyboard. Its indicator light meanings are not too different from the regular Bluetooth keyboard’s indicator lights:
 {% include figure image_path="/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/unifying-bluetooth.png" alt="" caption=""%}
