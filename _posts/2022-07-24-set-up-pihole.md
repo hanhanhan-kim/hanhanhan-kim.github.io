@@ -169,7 +169,7 @@ There are a few ways to see whether your devices successfully connected to the P
 pihole -c
 ```
 
-and the resulting output will be a nice command line dashboard of some key PiHole statistics. You're probably going to be finetuning your blocklists and whitelists, as you go about your internet life, but as a starter, a very good collection of blocklists can be found at the [firebog](https://firebog.net/). 
+and the resulting output will be a nice command line dashboard of some key PiHole statistics. You're probably going to be finetuning your blocklists and whitelists, as you go about your internet life, but as a starter, a very good collection of blocklists can be found at the [firebog](https://firebog.net/). A curated collection of whitelists can be found in the [Whitelist](https://github.com/anudeepND/whitelist#installation) repo. Remember to run `pihole -g`, whenever you update your lists. 
 
 And there we have it! We have a functional PiHole on our WiFi network!
 
@@ -189,3 +189,9 @@ If you want the statistics to be displayed upside-down, so that the Pi's USB por
 And there we have it! A functional PiHole on the WiFi network _and_ a cool hardware display! eInk is great, because it only uses up battery, when the display is being refreshed. So it opens up the possibility for a decent portable PiHole, if that's of interest. eInk is also just nice and easy on the eyes! :dark_sunglasses:
 
 ![](/assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg)
+
+## Some Convenient PiHole Commands:
+- `pihole -v`: Prints the version of PiHole you're running.
+- `pihole -g`: Run this command after you update your blocklists and whitelists.
+- `pihole -c`: Shows the cool PiHole chronometer dashboard.
+- `pihole -up`: Update the PiHole to the latest stable version. 
