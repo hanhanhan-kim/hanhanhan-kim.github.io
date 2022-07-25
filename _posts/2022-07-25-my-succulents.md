@@ -5,6 +5,7 @@ header:
     header: /assets/images/posts/2022-07-24-my-succulents/set-0.jpg
     overlay_image: /assets/images/posts/2022-07-24-my-succulents/set-1.jpg
     overlay_filter: false
+tagline: Some succulents I recently got at a succulent show!
 ---
 I recently went to a succulent show in LA, and got myself some cool-looking succulents! I find their patterns and geometries to be really mesmerizing. They're also pretty easy to take care of! 
 

@@ -1,7 +1,8 @@
 ---
-title: Modding My Friends' Cheap Keyboard
+title: Modding a Cheap Keyboard
+tagline: Giving a cheap keyboard a makeover!
 ---
-Some close friends of mine own a cheap Velocifire TKL61WS mechanical keyboard. Since they first purchased this keyboard, they've gone deep down the mk rabbit hole (of which, I obviously had nothing to do with ...), and no longer feel very impressed with the keyboard. I thought it might be a fun project and present if I modded it for them. This blog post details my modding adventures. 
+Some close friends of mine own a cheap Velocifire TKL61WS mechanical keyboard. Since they first purchased this keyboard, they've gone deep down the mk rabbit hole (of which, I obviously had nothing to do with ...), and no longer feel very impressed with the keyboard. I thought it might be a fun project and gift if I modded it for them. This blog post details my modding adventures. 
 
 ## Disassembly
 
