@@ -2,6 +2,11 @@
 title: Translating the TU40 v3 Keyboard Software
 excerpt: "A cool 2.4 GHz ortholinear keyboard imprisoned in closed-source software."
 tags: HIDs
+header:
+    header: /assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/tu40-photo.jpg
+    teaser: /assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/tu40-photo.jpg
+    og_image: /assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/tu40-photo.jpg
+    overlay_image: /assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/tu40-photo.jpg
 ---
 As a diehard ortholinear keyboard user with a proclivity for 40-something %s, I wanted to build this TU40 v3 keyboard that I saw on [AliExpress](https://www.aliexpress.com/item/3256802932623629.html?gatewayAdapt=4itemAdapt).  It’s a little different from what I’m used to in that the ortholinear version of the PCB supports only 2 x 2u spacebars, but I figure I can code up some stuff so it makes sense. The main draw of this keyboard is that it features 2.4 GHz connectivity, which is hard to find on a custom programmable keyboard, because the 2.4 GHz connectivity protocols are usually proprietary (as it remains even on this keyboard). 
 
@@ -35,42 +40,59 @@ A key can have no value assigned if the 🚫 icon is selected.
 The following images show all the various values that can be assigned to the keyboard’s keys:
 
 ### Basic Keys
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/keymap_english_translation_0a.png)
 
 ### Layer Control Keys
-See the "Layer Control" section for more details.
+
+See [Layer Control](#layer-control) for more details.
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/keymap_english_translation_0b.png)
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/layer-control-keys.png)
 
 ### Light Control Keys
+
+See [Backlight](#backlight) for more information about backlight control. 
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/keymap_english_translation_0c.png)
-See the “Backlight” section for more information about backlight control. 
+
 {% include figure image_path="/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/bottom-light-control.png" alt="" caption="Bottom Light Control"%}
 
 ### Multimedia Keys
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/keymap_english_translation_0d.png)
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/multimedia-keys.png)
 
 ### Combination Keys
-See the “Combination Keys” section for more details. 
+
+See [Combination Keys](#combination-keys) for more details. 
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/keymap_english_translation_0e.png)
 
 ### 2-in-1 Keys
-See the "2-in-1" section for more details.
+
+See [2-in-1](#2-in-1-key) for more details.
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/keymap_english_translation_0f.png)
 
 ### Macro Keys
-See the "Macro Keys" section for more details.
+
+See [Macro Keys](#macro-keys-1) for more details.
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/keymap_english_translation_0g.png)
 
 ### Function Keys
+
 These keys are used to operate the wireless module. See the “Wireless” section for more details.
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/keymap_english_translation_0h.png)
 
 
 ## Some Other Basic Functions
 The bottom left menu provides some key operations for working with the keymap:
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/basic-menu.png)
+
 - The ⬇️ icon refers to “download” and it writes the current configuration to the keyboard.
 - The ⬆️ icon refers to “upload” and it reads the configuration from the keyboard.
 - The 📂 icon refers to “load” and it loads a a configuration from a local file.
@@ -145,6 +167,7 @@ The TU40 has an automatic sleep function, in order to reduce the keyboard’s po
 You can also specify what will trigger the keyboard to wake up. Either a single `ESC` press, or any key press can wake up the keyboard from sleep mode. Hit `Read` under the “Wake up mode” heading to figure out what currently triggers the keyboard to wake. Hit `Set up` under the “Wake up mode” heading to write the method that triggers the keyboard to wake. 
 
 The TU40 also has a button that will automatically make the keyboard fall asleep:
+
 ![](/assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/sleep.png)
 
 ## Indicator Lights

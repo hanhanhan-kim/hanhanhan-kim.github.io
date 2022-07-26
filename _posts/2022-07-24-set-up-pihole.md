@@ -5,8 +5,7 @@ header:
     teaser: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
     og_image: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
     overlay_image: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
-    overlay_filter: false
-excerpts: "Turn a Raspberry Pi into a DNS server that swats away ads!"
+excerpt: "Turn a Raspberry Pi into a DNS server that swats away ads!"
 tags: 
     - Homelab
     - Builds
@@ -117,7 +116,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 ## Make the Pi's IP Static
 This step is critical for getting PiHole to work. To make the Pi's IP static, we're first going to SSH into the Pi, and check its device IP address, as well as the router's IP address. We can do so with either the more outdated `ifconfig` and `sudo route -n` commands, or with the more up-to-date `ip address show` and `ip route show` commands. 
 
-{% include figure image_path="/assets/images/posts/2022-07-24-set-up-pihole/ip-commands.png" alt="" caption="These are the returns from the more up to date commands. We can see here that the Pi's IP address is 10.0.7.230 (displayed by the wlan0 section), and the router's IP address is 10.0.7.1."%}
+{% include figure image_path="/assets/images/posts/2022-07-24-set-up-pihole/ip-commands.png" alt="" caption="These are the returns from the more up to date commands. We can see here that the Pi's IP address is `10.0.7.230` (displayed by the wlan0 section), and the router's IP address is `10.0.7.1.`"%}
 
 We're also going to want the current DNS server address that the Pi is using. To do so, we just need to look into the `/etc/resolv.conf` file:
 
@@ -128,7 +127,7 @@ Great! Write down the Pi's current IP address, the router's IP address. and the 
 <figure class="half">
     <a href="/assets/images/posts/2022-07-24-set-up-pihole/old-dhcpcd.png"><img src="/assets/images/posts/2022-07-24-set-up-pihole/old-dhcpcd.png"></a>
     <a href="/assets/images/posts/2022-07-24-set-up-pihole/new-dhcpcd.png"><img src="/assets/images/posts/2022-07-24-set-up-pihole/new-dhcpcd.png"></a>
-    <figcaption>On the left side is the original dhcpcd.conf file, with the part that we need to edit highlighted in blue. On the right side is the modified dhcpcd.conf file that has all the necessary information for setting the PiHole's IP address to be static.</figcaption>
+    <figcaption>On the left side is the original <code>dhcpcd.conf</code> file, with the part that we need to edit highlighted in blue. On the right side is the modified <code>dhcpcd.conf</code> file that has all the necessary information for setting the PiHole's IP address to be static.</figcaption>
 </figure>
 
 In the screenshot of the above modified `dhcpcd.conf` file, we can see that we specified the static IP address as a wireless connection (`interface wlan0`), and we set the static IP address to be the address that we got out from the `ip addreww show` command (`static ip_addres=10.0.7.230/24`), i.e. the current IP address that's assigned to the Pi. If you're curious about the `/24` suffix, it's just saying that of the 32 bits in the IPv4 address space, 24 bits are contained in the network. So, 32 - 24 = 8 bits are left for address space, i.e. 256 possibilities ranging from 0 to 255. We can see that we're not using the IPv6 address, which is expected for most set-ups (you'll know if you want to be using IPv6). Finally, we can see the IPs of the DNS servers we're using in the `static_domain_name_servers` parameter. We're using `1.1.1.1`, which is Cloudflare's, `10.0.7.1`, which is our router's, as determined by the `ip route show` command above, and `8.8.8.8`, which is Google's. 
@@ -148,7 +147,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 This command should eventually open up an installation wizard. We basically just say yes to everything the wizard asks us. 
 
-{% include figure image_path="/assets/images/posts/2022-07-24-set-up-pihole/pihole-wizard.png" caption="A screenshot from one of the PiHole installation wizard steps. We can say 'yes' to this step, like we do for all the installation wizard steps, or we can say 'skip', because we already made the IP static, with the steps above. Good for us!"%}
+{% include figure image_path="/assets/images/posts/2022-07-24-set-up-pihole/pihole-wizard.png" caption="A screenshot from one of the PiHole installation wizard steps. We can say `Yes` to this step, like we do for all the installation wizard steps, or we can say `Skip`, because we already made the IP static, with the steps above. Good for us!"%}
 
 ## Test PiHole
 Remember that the core principle of PiHole is that it operates as a DNS server. Given that fact, there are a few ways to get the PiHole's ad-blocking magic coursing through the WiFi. 
@@ -159,14 +158,14 @@ One is to manually edit the IP address of the DNS server for each device connect
 
 To put a Linux machine on the PiHole network, we can edit the `/etc/resolv.conf` file to tell the machine to use the PiHole as a DNS server, by inputting the PiHole's IP address:
 
-{% include figure image_path="/assets/images/posts/2022-07-24-set-up-pihole/linux-for-pihole.png" alt="" caption="If manually trying to connect a Linux machine to the PiHole's DNS capabilities, we just comment out the original nameserver, and swap it for the IP address of the PiHole. In the case of the examples that I've shown in this blog post, it's 10.0.7.230."%}
+{% include figure image_path="/assets/images/posts/2022-07-24-set-up-pihole/linux-for-pihole.png" alt="" caption="If manually trying to connect a Linux machine to the PiHole's DNS capabilities, we just comment out the original nameserver, and swap it for the IP address of the PiHole. In the case of the examples that I've shown in this blog post, it's `10.0.7.230`."%}
 
 To put an Android machine on the PiHole network, we have to go to the network settings of the WiFi network that the PiHole is on:
 
 <figure class="half">
     <a href="/assets/images/posts/2022-07-24-set-up-pihole/android-pre-pihole.png"><img src="/assets/images/posts/2022-07-24-set-up-pihole/android-pre-pihole.png"></a>
     <a href="/assets/images/posts/2022-07-24-set-up-pihole/android-post-pihole.png"><img src="/assets/images/posts/2022-07-24-set-up-pihole/android-post-pihole.png"></a>
-    <figcaption>On the left side is the network settings before, connecting to the PiHole network. Note that the IP address is currently given by the DHCP protocol, and the phone is assigned an IP of 10.0.7.41. We're going to want to write that down somewhere, so that when we change the phone's IP address to be static, we input the IP address that the DHCP previously assigned to the phone. Then, when prompted for DNS 1 and DNS 2, put in the IP address of the PiHole (you don't have to do it for both, just putting it in DNS 1 should be sufficient). Now the PiHole is the DNS server, and ads should be blocked.</figcaption>
+    <figcaption>On the left side is the network settings before, connecting to the PiHole network. Note that the IP address is currently given by the DHCP protocol, and the phone is assigned an IP of <code>10.0.7.41</code>. We're going to want to write that down somewhere, so that when we change the phone's IP address to be static, we input the IP address that the DHCP previously assigned to the phone. Then, when prompted for DNS 1 and DNS 2, put in the IP address of the PiHole (you don't have to do it for both, just putting it in DNS 1 should be sufficient). Now the PiHole is the DNS server, and ads should be blocked.</figcaption>
 </figure>
 
 I'm currently using this configuration, at least until I build and install my pfSense subnetwork. 
@@ -197,7 +196,7 @@ Then, clone the [Inky Hole repo](https://github.com/neauoire/inky-hole), and fol
 
 If you want the statistics to be displayed upside-down, so that the Pi's USB ports are on the top, rather than the bottom, you can either install [my fork of the repo](https://github.com/hanhanhan-kim/inky-hole), or just run `git diff` on mine vs the original's `main.py` file, and make the same changes that I made, to your local version. You can also print out [a case](https://www.thingiverse.com/thing:3897860) for the Pi Zero + Inky pHAT. 
 
-And there we have it! A functional PiHole on the WiFi network _and_ a cool hardware display! eInk is great, because it only uses up battery, when the display is being refreshed. So it opens up the possibility for a decent portable PiHole, if that's of interest. eInk is also just nice and easy on the eyes! :dark_sunglasses:
+And there we have it! A functional PiHole on the WiFi network _and_ a cool hardware display! eInk is great, because it only uses up battery, when the display is being refreshed. So it opens up the possibility for a decent portable PiHole, if that's of interest. eInk is also just nice and easy on the eyes! :dark_sunglasses: :dark_sunglasses: :dark_sunglasses:
 
 ![](/assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg)
 
