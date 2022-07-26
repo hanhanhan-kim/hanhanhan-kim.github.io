@@ -56,9 +56,8 @@ You might now be wondering what I mean by an 'encrypted representation' of a pas
 
 Next, we're going to change the user and machine names. If you have your share of Pis, it's a little confusing to have them all named `raspberrypi` with the username `pi`, so it helps to name them something specific. For my PiHole, I name the machine `pihole`, and the username `pihole`. To do so, we're going to go into the `/rootfs/etc/hostname` file, and change the contents from the default `raspberrypi` to `pihole`. We're then going to do the same thing for the `/rootfs/etc/hosts` file. 
 
-<figure class="half">
-    <a href="/assets/images/posts/2022-07-24-set-up-pihole/hostname.png"><img src="/assets/images/posts/2022-07-24-set-up-pihole/hostname.png"></a>
-    <a href="/assets/images/posts/2022-07-24-set-up-pihole/hosts.png"><img src="/assets/images/posts/2022-07-24-set-up-pihole/hosts.png"></a>
+<figure class="align-center">
+    <a href="/assets/images/posts/2022-07-24-set-up-pihole/hostname.png"><img src="/assets/images/posts/2022-07-24-set-up-pihole/hosts_hostname.jpg"></a>
     <figcaption>Screenshots of what the file contents will look like, after changing the name.</figcaption>
 </figure>
 

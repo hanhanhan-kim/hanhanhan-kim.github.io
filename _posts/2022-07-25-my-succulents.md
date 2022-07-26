@@ -35,6 +35,6 @@ I printed some pots for my succulents in [Ziro Marble PLA](https://www.amazon.co
 
 I thought these little succs would make for cute desk buddies! So I've put a set of 3 on each of my desks, where they keep me company, while I work. 
 
-![](/assets/images/posts/2022-07-24-my-succulents/set-0.jpg)
+{% include figure image_path="/assets/images/posts/2022-07-24-my-succulents/set-0.jpg" caption="Should I name them? Maybe ..." %}
 
-![](/assets/images/posts/2022-07-24-my-succulents/set-1.jpg)
+{% include figure image_path="/assets/images/posts/2022-07-24-my-succulents/set-1.jpg" caption="You can actually see my [PiHole](/set-up-pihole/) in the corner! Succulents hate ads too!" %}

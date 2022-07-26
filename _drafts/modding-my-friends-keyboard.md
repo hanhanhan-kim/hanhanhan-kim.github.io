@@ -68,7 +68,7 @@ During my disassembly process, I wound up getting rid of the crappy little hot-s
 
 I wound up picking the [JWK Jwick Linear Reds (62 g)](https://divinikey.com/products/jwk-jwick-linear-switches?variant=39897727893569), because they're nice stock switches that don't need to be lubed, and come at a really great price, at $0.23 USD / switch.  
 
-{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/red-jwicks-stock.webp" alt="" caption="62 g springs, polycarbonate top housing, nylon PA66 bottom housing, and POM stems."%}
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/red-jwicks-stock.webp" alt="" caption="JWK Jwick linear reds: 62 g springs, polycarbonate top housing, nylon PA66 bottom housing, and POM stems."%}
 
 ## Mod the Stabilizers
 

@@ -96,5 +96,4 @@ We then add some Sugru to cover up the bare electronics (or if you’d like, 2-p
 
 Here’s a video of the operational USB-C receiver! I replaced the grey Sugru casing for a black one! 
 
-{% include video id="1G2WdrUnymID4X64sUBBEeygfiZ8RMPCp" provider="google-drive" %}
-
+{% include video id="MLZ67qd8cs0" provider="youtube" %}
