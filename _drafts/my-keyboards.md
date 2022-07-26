@@ -1,3 +1,9 @@
+---
+tags: 
+    - HIDs
+    - Tracking
+excerpt: "A running record of my many keyboards."
+---
 I own a lot of 'weird' keyboards. One could argue that it's my strange addiction. I also like documenting things. I thought that it might be fun for me to share a running catalog of my keyboard builds. I'll share the keyboard's specs, any mods I've done, and the keymap I'm using. I'll try and update this post as I make changes to my build specs and keymaps, and sell and buy things. 
 
 __*Note about keymap legending:*__ I make all the graphical representations of my keymaps on [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/) (KLE).  In general, I use the following encoding:

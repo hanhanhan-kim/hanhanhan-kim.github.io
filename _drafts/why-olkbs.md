@@ -1,5 +1,8 @@
 ---
 title: Why OLKBs?
+subtitle: Or how I learned to stop worrying and love abnormal keyboards
+tag: HIDs
+excerpt: "A case for relearning how to type."
 ---
 
 In `config.h`:

@@ -6,7 +6,10 @@ header:
     og_image: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
     overlay_image: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
     overlay_filter: false
-tagline: Turn a Raspberry Pi into a DNS server that swats away ads!
+excerpts: "Turn a Raspberry Pi into a DNS server that swats away ads!"
+tags: 
+    - Homelab
+    - Builds
 ---
 
 [PiHole](https://pi-hole.net/) is a super popular Raspberry Pi project, and for good reason. It uses a Raspberry Pi as a DNS server, so it can look up any advertisement- and tracker-related IPs and send such queries to not your devices and/or home network. In addition to making internet browsing less annoying, it also makes it safer, and declogs a lot of traffic. In this post, I'm going to talk about how I set up my PiHole on a headless [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/). 

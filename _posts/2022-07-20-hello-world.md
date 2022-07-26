@@ -1,6 +1,8 @@
 ---
-title: Hello, world!
+title: Hello, World!
 tagline: Hello!
+tags:
+    - Misc
 header:
     og_image: /assets/images/hello.jpg
     teaser: /assets/images/hello.jpg

@@ -1,3 +1,10 @@
+---
+excerpt: "My first true wireless split keyboard build."
+tags: 
+    - HIDs
+    - Builds
+---
+
 In this post, I document my build of a wireless version of the popular [Corne](https://github.com/foostan/crkbd) split keyboard. I found this [post](https://github.com/jhelvy/wireless-corne/tree/main/build) to be very helpful, while I was building my wireless Corne. I talk about the changes I made to the original Corne keyboard, and the changes I wish I had made, if I was doing this build again. 
 
 ## Electronics

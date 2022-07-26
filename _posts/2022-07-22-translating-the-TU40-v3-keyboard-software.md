@@ -1,6 +1,7 @@
 ---
 title: Translating the TU40 v3 Keyboard Software
-tagline: A cool 2.4 GHz keyboard imprisoned in closed-source software. 
+excerpt: "A cool 2.4 GHz ortholinear keyboard imprisoned in closed-source software."
+tags: HIDs
 ---
 As a diehard ortholinear keyboard user with a proclivity for 40-something %s, I wanted to build this TU40 v3 keyboard that I saw on [AliExpress](https://www.aliexpress.com/item/3256802932623629.html?gatewayAdapt=4itemAdapt).  It’s a little different from what I’m used to in that the ortholinear version of the PCB supports only 2 x 2u spacebars, but I figure I can code up some stuff so it makes sense. The main draw of this keyboard is that it features 2.4 GHz connectivity, which is hard to find on a custom programmable keyboard, because the 2.4 GHz connectivity protocols are usually proprietary (as it remains even on this keyboard). 
 

@@ -4,6 +4,9 @@ header:
     teaser: /assets/images/posts/2022-07-25-some-ubuntu-customizations/stock-photo.jpg
     og_image: /assets/images/posts/2022-07-25-some-ubuntu-customizations/stock-photo.jpg
     overlay_image: /assets/images/posts/2022-07-25-some-ubuntu-customizations/stock-photo.jpg
+tags: 
+    - Tracking
+excerpt: "This post keeps track of some running customizations I like to use on Ubuntu."
 ---
 
 This post keeps track of some running customizations I like to use on Ubuntu.

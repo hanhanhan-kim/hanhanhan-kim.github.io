@@ -6,8 +6,9 @@ header:
     og_image: /assets/images/posts/2022-07-24-making-bluetooth-dongles-usb-c/final-dongle.png
     overlay_image: /assets/images/posts/2022-07-24-making-bluetooth-dongles-usb-c/final-dongle.png
     overlay_filter: rgba(103, 110, 149, 0.30)
-tagline: Why are there no USB-C dongles?!
-
+excerpt: "Why are there no USB-C dongles?!"
+tags: 
+    - Builds
 ---
 
 2.4 GHz Bluetooth USB dongles never seem to be USB-C. I find this dearth a bit annoying, because my MacBook Pro features only USB-C ports, and it seems silly that I'd have to carry around an awkward USB to USB-C port, if I ever wanted to use a Bluetooth dongle with my MacBook. 
