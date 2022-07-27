@@ -283,10 +283,10 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
+    
 # Defaults
 defaults:
+
   # _posts
   - scope:
       path: ""
@@ -303,6 +303,7 @@ defaults:
       header:
         overlay_filter: rgba(103, 110, 149, 0.30)
         overlay_color: "#676e95"
+
   # _pages
   - scope:
       path: ""
@@ -310,6 +311,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
   # _portfolio
   - scope:
       path: ""
