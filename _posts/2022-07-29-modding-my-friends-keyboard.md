@@ -4,6 +4,11 @@ tags:
     - HIDs
     - Builds
 excerpt: "Giving a cheap keyboard a makeover!"
+header:
+    og_image: /assets/images/posts/2022-07-23-modding-my-friends-keyboard/final-0.jpg
+    teaser: /assets/images/posts/2022-07-23-modding-my-friends-keyboard/final-0.jpg
+    header: /assets/images/posts/2022-07-23-modding-my-friends-keyboard/final-0.jpg
+    overlay_image: /assets/images/posts/2022-07-23-modding-my-friends-keyboard/final-0.jpg
 ---
 Some close friends of mine own a cheap Velocifire TKL61WS mechanical keyboard. Since they first purchased this keyboard, they've gone deep down the mk rabbit hole (of which, I obviously had nothing to do with ...), and no longer feel very impressed with the keyboard. I thought it might be a fun project and gift if I modded it for them. This blog post details my modding adventures. 
 
@@ -96,6 +101,10 @@ Then, I put on the keycaps. It's almost impossible to mess this part up. I'm usi
 
 {% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/keycaps.jpg" alt="" caption="All the keycaps are in place! I like this colour scheme a lot."%}
 
+With the switches and keycaps installed, I tried a few key presses, just to approximate for the typing feel (not so much the typing sound though, because I found that a representative acoustic test requires the keyboard to be mounted to its case). I was pretty happy with all the keys, except for the spacebar. It just felt kind of weak, given the lighter switch, even though the plastic of the keycaps were also pretty light--but I guess the spacebar is just a really big key. I swapped out the switch for a heavier Cherry MX black. 
+
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/spacebar-mx-black.jpg" alt="" caption="The right switch for the job."%}
+
 ## Undo Mistakes
 
 It turns out that when I was removing the cheap 'hot-swap' switch sockets during the [disassembly](#disassembly) process, I also removed the PCB's copper tracing along certain switch footprints on the PCB. I shouldn't have been too surprised about this wrinkle, given the general quality of the PCB, but I felt like it still could have been avoided. I took me more time than I'd like to admit to figure out the [keyboard matrix circuit](https://en.wikipedia.org/wiki/Keyboard_matrix_circuit) on this PCB, but I got it [eventually](keyboardtester.com/tester.html), and I used some thin wires to re-establish the lost connections.
@@ -114,10 +123,65 @@ The way a keyboard is mounted is critical to its typing feel and sound. I think 
 
 {% include video id="zt-WsH7Z9c8" provider="youtube" %}
 
-I think I'm going to take the same approach as the video, and saw off the original plastic standoff mounts, so that they no longer provide any mounting contacts, and all contacts are done via the gasket instead. 
+I think I'm going to take the same approach as the video, and saw off the original plastic standoff mounts, so that they no longer provide any mounting contacts, and all contacts are done via the gasket instead. There are a ton of integrated stand-offs on this keyboard case. I cut _all_ of them off. I just used some flush cutters to get rid of the stand-off. 
 
-## Make it QMK-Programmable
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/some-cut-standoffs.jpg" alt="" caption="I started off by snipping just a few of the middle standoffs. The gasket-mount effect just wasn't there though, for as long as the PCB made hard contacts against the plastic . . ."%}
+
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/all-standoffs-cut.jpg" alt="" caption="I cut off every plastic standoff. I also wound up cutting the plastic supports on the edges, after I took this photo."%}
+
+In the above Keybored video, the PCB had a daughterboard for the USB port, which is expected of most gasket-mounted keyboards. The logic to having daughterboards is that if the PCB is going to have some pliance for that soft typing feel, you don't want the USB port cut-out on the case to prevent the PCB's vertical flexibility. Without a daughterboard for the USB port, the case's USB cutout would be on the main PCB, and it would be making a hard contact with the USB port, which would inhibit any vertical give. So the favoured solution is to separate the USB port onto a daughterboard. 
+
+Alternatively, if not using a daughterboard, one could create space between the USB port and the USB cutout on the case. Some aesthetic purists might argue that there being such a buffer space between the USB port and the cutout might be a little ugly, but very popular and good-looking boards, such as the recent QK65, [have successfully taken this approach](https://www.youtube.com/watch?v=N3iIDylTRwY)[^1].
+
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/still-yt-qk65.png" alt="" caption="A still from Keybored's [review video of the QK65](https://www.youtube.com/watch?v=N3iIDylTRwY&t=1235s), where he shows how making the USB cutout larger than the USB port is necessary for a proper gasket-mounted keyboard, if not using a daughterboared."%}
+
+The PCB I'm working with isn't very compatible with a daughterboard, so I opted to go down the QK65 route. I used a dremel to enlarge the USB port. I might have overdone it a bit, but I think it's still fine, overall. 
+
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/dremel-usb-cutout.jpg" alt="" caption="I enlarge the USB cut-out with a dremel."%}
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/dremelled.jpg" alt="" caption="The finished outcome!"%}
+
+I then ordered the secret sauce: an o-ring gasket. I'm using the [same o-ring gasket](https://www.theoringstore.com/store/index.php?main_page=product_info&products_id=54816) as the one for the original Baknekeko 60. I wrapped the o-ring around the PCB and switch plate, as is standard practice. 
+
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/o-ring.jpg" alt="" caption="The recommended o-ring for Bakeneko60 installed on the modded keyboard. The o-ring was not as stretchy as I thought it'd be. Or at least, it's not nearly as stretchy as the o-ring I used for my [Planckeneko](https://github.com/hanhanhan-kim/kbd-cases/tree/main/planckeneko) project, even though both o-rings are rated at the same hardness. Hmmm."%}
+
+I found that the o-ring was squeezing out some of the sticky tape that I put on the underside of the switch plate. So I removed the sticky tape strips that were on the switch plate edges. 
+
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/pull-out-sticky-tape.jpg" alt="" caption="Look at me pull out the sticky tape that was on the switch plate edges."%}
+
+## Tape Mod
+
+If not using a semi-flex PCB with lots of flex cutouts, I think it's usually a good idea to do the popular 'tape mod', and tape the back of the PCB, preferably with the 3M 'blue tape'. I used 3 layers, and I made sure to leave space for the battery power switch and the battery JST socket. 
+
+![](/assets/images/posts/2022-07-23-modding-my-friends-keyboard/tape-mod.jpg)
+
+## Case Foam and Finishing Hardware Touches
+I really experimented with what foams to use for the case foam. I had a fair bit of space I got to work with, after I cut off all the excess plastic standoffs. I tried various combinations of [car sound deadener](https://www.amazon.com/car-sound-deadening-material/s?k=car+sound+deadening+material), PE foam, and drawer liner. In the end, I took everything out, except for a single layer of the drawer liner, because that's what I thought sounded best for this board!
+
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/put-in-keyboard.jpg" alt="" caption="The o-ring gasket worked quite well, and I was able to fit the PCB and switch plate into the keyboard case without a hassle! Ignore the PE foam in this photo, I wound up taking it out, and sticking with only the drawer liner."%}
+
+I was also relieved to see that the toggle switch that controls the battery power (this keyboard is Bluetooth-capable) was still able to jut out of its cut-out without a problem! :tada:
+
+![](/assets/images/posts/2022-07-23-modding-my-friends-keyboard/bottom.jpg)
+
+## Make it QMK-Programmable (a fail :disappointed:)
 
 I own a Hasu USB-USB converter, from back when I first got started in the hobby. I don't use it anymore, because I don't like boards that aren't natively programmable, but I think it might just the thing for this modding project. I recall my friends mentioning how confusing it is to access the arrow keys with the Velocifire's default configuration, so I'm hoping this adaptor will change all that. 
 
 {% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/hasu-usb-usb.jpg" alt="" caption="What a cutie. I should print a case for it, though."%}
+
+Unfortunately, the hope was misplaced. I knew that [not all keyboards would be compatible](https://geekhack.org/index.php?topic=69169.0) with the Hasu USB-USB controller. The Hasu USB-USB controller worked great with various other boards I own, but failed to work with the Velocifire. I tried to get a closer look at the µC the keyboard uses, just for my own curiousity, but it was really hard to make out. It didn't actually matter anyway. It was just a little disappointing that I couldn't QMK-ify my friends' keyboard :disappointed:. 
+
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/uc.jpg" alt="" caption="What on earth is this monstrousity?!"%}
+
+## End Result
+In the end, I was pretty happy with the result! I thought it looked pretty good, and the typing sound and feel is vastly improved from before. Here are a few photos of the end result! 
+
+![](/assets/images/posts/2022-07-23-modding-my-friends-keyboard/final-0.jpg)
+
+![](/assets/images/posts/2022-07-23-modding-my-friends-keyboard/final-1.jpg)
+
+I'm hoping to build a microphone soon, which I'll be able to use to make a decent keyboard typing test. I'll then update this blog post with the recording!
+
+## Footnotes
+
+[^1]: Flip to [4:54](https://www.youtube.com/watch?v=N3iIDylTRwY&t=294s) and [20:35](https://www.youtube.com/watch?v=N3iIDylTRwY&t=1235s) of this Keybored video, to see Scott talk about the lack of daughterboard on the gasket-mounted QK65. 
