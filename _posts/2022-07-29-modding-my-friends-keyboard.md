@@ -180,6 +180,8 @@ In the end, I was pretty happy with the result! I thought it looked pretty good,
 
 ![](/assets/images/posts/2022-07-23-modding-my-friends-keyboard/final-1.jpg)
 
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/ready.jpg" alt="" caption="Ready to be returned to my buds!"%}
+
 I'm hoping to build a microphone soon, which I'll be able to use to make a decent keyboard typing test. I'll then update this blog post with the recording!
 
 ## Footnotes
