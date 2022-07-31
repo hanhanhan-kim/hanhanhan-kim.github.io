@@ -23,7 +23,7 @@ We start by unscrewing all the screws on the switch plate, which is what's affix
 <figure class="half">
     <a href="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/unscrewed.jpg"><img src="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/unscrewed.jpg"></a>
     <a href="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/jst-cable.jpg"><img src="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/jst-cable.jpg"></a>
-    <figcaption>Yum, stock Gateron browns :woozy_face:. There's a 1800 mAh 3.7 V battery though! That's a decent amount of juice. It's connected to the PCB via a 2-pin JST cable. Gotta unplug that sucker.</figcaption>
+    <figcaption>Yum, stock Gateron browns :unamused:. There's a 1800 mAh 3.7 V battery though! That's a decent amount of juice. It's connected to the PCB via a 2-pin JST cable. Gotta unplug that sucker.</figcaption>
 </figure>
 
 We now need to remove the switches from the PCB. Technically, there are these small 'hot-swap sockets' installed onto the PCB (which were not Kailh styles, but were rather low quality Mill-Max style clones), and they had a kind of death grip on the Gateron brown switches. I think these sockets are awful, and I made an executive call to just destroy them, and turn the board into a dependable solder-only board :smile:. 
@@ -75,7 +75,7 @@ I wound up picking the [JWK Jwick Linear Reds (62 g)](https://divinikey.com/prod
 
 {% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/red-jwicks-stock.webp" alt="" caption="**JWK Jwick linear reds**: 62 g springs, polycarbonate top housing, nylon PA66 bottom housing, and POM stems."%}
 
-I realized after the switches came in, however, that the PCB accepted only 3-pin switches and not 5-pin switches (the term 'pin' here is kind of silly, because three of the 'pins' are just plastic protorusions that help secure the switch, but everyone in keyboard land just calls them 'pins'). So I had to cut the two plastic legs off each Jwick, so that they effectively became 3-pin switches. The switches still weren't fitting into the PCB though, and I realized that not only were the keyboard's original Gateron Browns 3-pins, but they also possessed a large cavity at the back of the switch, so that the PCB's RGB lights could shine behind each alpha key. The Jwiks did not have such a cavity, however, and so they refused to sit flush against the PCB, while the LEDs were still there. 
+I realized after the switches came in, however, that the PCB accepted only 3-pin switches and not 5-pin switches (the term 'pin' here is kind of silly, because three of the 'pins' are just plastic protrusions that help secure the switch, but everyone in keyboard land just calls them 'pins'). So I had to cut the two plastic legs off each Jwick, so that they effectively became 3-pin switches. The switches still weren't fitting into the PCB though, and I realized that not only were the keyboard's original Gateron Browns 3-pins, but they also possessed a large cavity at the back of the switch, so that the PCB's RGB lights could shine behind each alpha key. The Jwiks did not have such a cavity, however, and so they refused to sit flush against the PCB, while the LEDs were still there. 
 
 {% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/i-hate-this-pcb.jpg" alt="" caption="This PCB seems to have a lot of features that express its hatred for decent keyboard switches. It has tacky RGB LEDs, and is misisng 5-pin switch support, both of which prevent the new switches from sitting flush against the PCB."%}
 
@@ -101,13 +101,13 @@ Then, I put on the keycaps. It's almost impossible to mess this part up. I'm usi
 
 {% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/keycaps.jpg" alt="" caption="All the keycaps are in place! I like this colour scheme a lot."%}
 
-With the switches and keycaps installed, I tried a few key presses, just to approximate for the typing feel (not so much the typing sound though, because I found that a representative acoustic test requires the keyboard to be mounted to its case). I was pretty happy with all the keys, except for the spacebar. It just felt kind of weak, given the lighter switch, even though the plastic of the keycaps were also pretty light--but I guess the spacebar is just a really big key. I swapped out the switch for a heavier Cherry MX black. 
+With the switches and keycaps installed, I tried a few key presses, just to approximate for the typing feel (not so much the typing sound though, because I found that a representative acoustic test requires the keyboard to be mounted to its case). I was pretty happy with all the keys, except for the spacebar. It just felt kind of weak, given the lighter switch, even though the plastic of the keycaps were also pretty light---but I guess the spacebar is just a really big key. I swapped out the switch for a heavier Cherry MX Black. 
 
 {% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/spacebar-mx-black.jpg" alt="" caption="The right switch for the job."%}
 
 ## Undo Mistakes
 
-It turns out that when I was removing the cheap 'hot-swap' switch sockets during the [disassembly](#disassembly) process, I also removed the PCB's copper tracing along certain switch footprints on the PCB. I shouldn't have been too surprised about this wrinkle, given the general quality of the PCB, but I felt like it still could have been avoided. I took me more time than I'd like to admit to figure out the [keyboard matrix circuit](https://en.wikipedia.org/wiki/Keyboard_matrix_circuit) on this PCB, but I got it [eventually](keyboardtester.com/tester.html), and I used some thin wires to re-establish the lost connections.
+It turns out that when I was removing the cheap 'hot-swap' switch sockets during the [disassembly](#disassembly) process, I also removed the PCB's copper tracing along certain switch footprints on the PCB. I shouldn't have been too surprised about this wrinkle, given the general quality of the PCB, but I felt like it still could have been avoided. I took me more time than I'd like to admit to figure out the [keyboard matrix circuit](https://en.wikipedia.org/wiki/Keyboard_matrix_circuit) on this PCB, but I got it [eventually](https://www.keyboardtester.com/tester.html), and I used some thin wires to re-establish the lost connections.
 
 {% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/my-mistakes.jpg" alt="" caption="**My repairs**. I used six pieces of 30 AWG wire to reconnect the traces that I broke off with my somewhat aggressive desoldering."%}
 
@@ -123,11 +123,11 @@ The way a keyboard is mounted is critical to its typing feel and sound. I think 
 
 {% include video id="zt-WsH7Z9c8" provider="youtube" %}
 
-I think I'm going to take the same approach as the video, and saw off the original plastic standoff mounts, so that they no longer provide any mounting contacts, and all contacts are done via the gasket instead. There are a ton of integrated stand-offs on this keyboard case. I cut _all_ of them off. I just used some flush cutters to get rid of the stand-off. 
+I think I'm going to take the same approach as the video, and saw off the original plastic standoff mounts, so that they no longer provide any mounting contacts, and all contacts are done via the gasket instead. There are a ton of integrated stand-offs on this keyboard case. I cut off _all_ of them. I used some flush cutters to get rid of the stand-offs. 
 
 {% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/some-cut-standoffs.jpg" alt="" caption="I started off by snipping just a few of the middle standoffs. The gasket-mount effect just wasn't there though, for as long as the PCB made hard contacts against the plastic . . ."%}
 
-{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/all-standoffs-cut.jpg" alt="" caption="I cut off every plastic standoff. I also wound up cutting the plastic supports on the edges, after I took this photo."%}
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/all-standoffs-cut.jpg" alt="" caption="In the end, I cut off every plastic standoff. I also wound up cutting the plastic supports on the edges, after I took this photo."%}
 
 In the above Keybored video, the PCB had a daughterboard for the USB port, which is expected of most gasket-mounted keyboards. The logic to having daughterboards is that if the PCB is going to have some pliance for that soft typing feel, you don't want the USB port cut-out on the case to prevent the PCB's vertical flexibility. Without a daughterboard for the USB port, the case's USB cutout would be on the main PCB, and it would be making a hard contact with the USB port, which would inhibit any vertical give. So the favoured solution is to separate the USB port onto a daughterboard. 
 
@@ -142,7 +142,7 @@ The PCB I'm working with isn't very compatible with a daughterboard, so I opted 
 
 I then ordered the secret sauce: an o-ring gasket. I'm using the [same o-ring gasket](https://www.theoringstore.com/store/index.php?main_page=product_info&products_id=54816) as the one for the original Baknekeko 60. I wrapped the o-ring around the PCB and switch plate, as is standard practice. 
 
-{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/o-ring.jpg" alt="" caption="The recommended o-ring for Bakeneko60 installed on the modded keyboard. The o-ring was not as stretchy as I thought it'd be. Or at least, it's not nearly as stretchy as the o-ring I used for my [Planckeneko](https://github.com/hanhanhan-kim/kbd-cases/tree/main/planckeneko) project, even though both o-rings are rated at the same hardness. Hmmm."%}
+{% include figure image_path="/assets/images/posts/2022-07-23-modding-my-friends-keyboard/o-ring.jpg" alt="" caption="**The recommended o-ring for Bakeneko60 installed on the modded keyboard.** The o-ring was not as stretchy as I thought it'd be. Or at least, it's not nearly as stretchy as the o-ring I used for my [Planckeneko](https://github.com/hanhanhan-kim/kbd-cases/tree/main/planckeneko) project, even though both o-rings are rated at the same hardness. Hmmm."%}
 
 I found that the o-ring was squeezing out some of the sticky tape that I put on the underside of the switch plate. So I removed the sticky tape strips that were on the switch plate edges. 
 
@@ -150,7 +150,7 @@ I found that the o-ring was squeezing out some of the sticky tape that I put on 
 
 ## Tape Mod
 
-If not using a semi-flex PCB with lots of flex cutouts, I think it's usually a good idea to do the popular 'tape mod', and tape the back of the PCB, preferably with the 3M 'blue tape'. I used 3 layers, and I made sure to leave space for the battery power switch and the battery JST socket. 
+If not using a semi-flex PCB with lots of flex cutouts, I think it's usually a good idea to do the popular '[tape mod](https://www.youtube.com/watch?v=g7-syoxeIBQ)', and tape the back of the PCB, preferably with the 3M 'blue tape'. I used 3 layers, and I made sure to leave space for the battery power switch and the battery JST socket. 
 
 ![](/assets/images/posts/2022-07-23-modding-my-friends-keyboard/tape-mod.jpg)
 

@@ -8,11 +8,11 @@ I own a lot of 'weird' keyboards. One could argue that it's my strange addiction
 
 __*Note about keymap legending:*__ I make all the graphical representations of my keymaps on [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/) (KLE).  In general, I use the following encoding:
 - Black characters are _base_ layer keys.
-- <span style="color:#4285F4">Blue (#4285F4)</span> characters are _lower_ layer keys.
-- <span style="color:#DB4437">Red (#DB4437)</span> characters are _raise_ layer keys.
-- <span style="color:#0F9D58">Green (#0F9D58)</span> characters are _adjust_ layer keys (i.e. _lower_ + _raise_), and often encode utilities. 
-- <span style="color:#f99820">Orange (#f99820)</span> characters are _navigation_ layer keys
-- <span style="color:#A020F0">Purple (#A020F0)</span> characters are _media_ layer keys, if media keys do not fit on some other layer, e.g. for the Corne keyboard.
+- <span style="color:#458588">Blue (#458588)</span> characters are _lower_ layer keys.
+- <span style="color:#cc241d">Red (#cc241d)</span> characters are _raise_ layer keys.
+- <span style="color:#98971a">Green (#98971a)</span> characters are _adjust_ layer keys (i.e. _lower_ + _raise_), and often encode utilities. 
+- <span style="color:#d79921">Orange (#d79921)</span> characters are _navigation_ layer keys
+- <span style="color:#b16286">Purple (#b16286)</span> characters are _media_ layer keys, if media keys do not fit on some other layer, e.g. for the Corne keyboard.
 - Characters written on the front edge of the keycaps are keys that are executed only upon holding down the keypress, such as [homerow mods](https://precondition.github.io/home-row-mods). 
 
 For those who are curious about layers, ortholinearity, and homerow mods, I might write a brief blog post about the topics later. 
