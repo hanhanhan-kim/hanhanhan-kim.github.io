@@ -7,7 +7,7 @@ header:
     overlay_filter: false
 excerpt: "Some succulents I recently got at a succulent show!"
 tags: 
-    - Misc
+    - Home
 ---
 I recently went to a succulent show in LA, and got myself some cool-looking succulents! I find their patterns and geometries to be really mesmerizing. They're also pretty easy to take care of! 
 
