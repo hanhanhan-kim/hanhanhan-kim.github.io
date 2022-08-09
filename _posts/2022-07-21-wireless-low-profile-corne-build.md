@@ -1,5 +1,5 @@
 ---
-excerpt: "My first true wireless split keyboard build."
+excerpt: ":butterfly: My first true wireless split keyboard build."
 tags: 
     - HIDs
     - Builds

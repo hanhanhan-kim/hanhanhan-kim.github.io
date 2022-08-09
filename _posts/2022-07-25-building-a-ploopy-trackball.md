@@ -2,7 +2,7 @@
 tags: 
     - HIDs
     - Builds
-excerpt: "My first trackball, and it's open-sourced!"
+excerpt: ":trackball: My first trackball, and it's open-sourced!"
 title: Building a Ploopy Trackball
 header:
     header: /assets/images/posts/2022-07-25-building-a-ploopy-trackball/assembled.jpg

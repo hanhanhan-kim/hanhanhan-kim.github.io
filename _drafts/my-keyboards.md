@@ -61,3 +61,5 @@ TODO
 My first split keyboard, and my first [ZMK](zmk.dev) build! I chose ZMK as my firmware framework because I wanted to build a 'true' split wireless build, where both halves are wireless, but would be read as a single device, as opposed to two separate devices (which is weird, because each keyboard half actually has its own µC). 
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/corne.png" alt="" caption="ZMK, true wireless" %}
+
+### Oddball

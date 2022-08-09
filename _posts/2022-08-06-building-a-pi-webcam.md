@@ -55,7 +55,9 @@ I plugged the camera into my Windows PC, and voila! I didn't need to install any
 
 ![](/assets/images/posts/2022-08-06-building-a-pi-webcam/in-use.jpg)
 
-I tried doing the same on my Ubuntu machine, but it resulted in some issues. Apparently, the newest Ubuntu (22.04) appears to have some issues with the `showmewebcam` code, but hopefully that'll be patched some point soon. 
+I tried doing the same on my Ubuntu machine, but it resulted in some issues. Apparently, the newest Ubuntu (22.04) appears to have some issues with the `showmewebcam` code, but hopefully that'll be patched some point soon. As part of my final set-up, I mounted the camera via its 1/4"-20 threads onto a microphone arm stand. 
+
+![](/assets/images/posts/2022-08-06-building-a-pi-webcam/on-arm.jpg)
 
 ## Future Improvements
 

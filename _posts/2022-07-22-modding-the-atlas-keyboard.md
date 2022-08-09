@@ -1,5 +1,5 @@
 ---
-excerpt: "Making a premium keyboard's sound profile match its looks."
+excerpt: ":statue: Making a premium keyboard's sound profile match its looks."
 header:
     og_image: /assets/images/posts/2022-07-22-modding-the-atlas-keyboard/final.jpg
     teaser: /assets/images/posts/2022-07-22-modding-the-atlas-keyboard/final.jpg
