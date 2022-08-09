@@ -5,7 +5,7 @@ header:
     teaser: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
     og_image: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
     overlay_image: /assets/images/posts/2022-07-24-set-up-pihole/my-inky-hole.jpg
-excerpt: "Turn a Raspberry Pi into a DNS server that swats away ads!"
+excerpt: ":strawberry: Turn a Raspberry Pi into a DNS server that swats away ads!"
 tags: 
     - Homelab
     - Builds

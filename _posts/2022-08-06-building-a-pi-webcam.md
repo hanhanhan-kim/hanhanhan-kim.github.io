@@ -3,7 +3,7 @@ title: Building a Pi Webcam
 tags: 
     - HIDs
     - Builds
-excerpt: "Turning a Raspberry Pi into a cross-platform webcam!"
+excerpt: ":camera_flash: Turning a Raspberry Pi into a cross-platform webcam!"
 header:
     og_image: /assets/images/posts/2022-08-06-building-a-pi-webcam/in-use.jpg
     teaser: /assets/images/posts/2022-08-06-building-a-pi-webcam/in-use.jpg
