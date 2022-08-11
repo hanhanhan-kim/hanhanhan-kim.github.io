@@ -1,6 +1,6 @@
 ---
 title: Translating the TU40 v3 Keyboard Software
-excerpt: "A cool 2.4 GHz ortholinear keyboard imprisoned in closed-source software."
+excerpt: ":japanese_ogre: A cool 2.4 GHz ortholinear keyboard imprisoned in closed-source software."
 tags: HIDs
 header:
     header: /assets/images/posts/2022-07-22-translating-the-TU40-v3-keyboard-software/tu40-photo.jpg

@@ -6,7 +6,7 @@ header:
     og_image: /assets/images/posts/2022-07-24-making-bluetooth-dongles-usb-c/final-dongle.png
     overlay_image: /assets/images/posts/2022-07-24-making-bluetooth-dongles-usb-c/final-dongle.png
     overlay_filter: rgba(103, 110, 149, 0.30)
-excerpt: "Why are there no USB-C dongles?!"
+excerpt: ":sweat: Why are there no USB-C dongles?!"
 tags: 
     - Builds
 ---

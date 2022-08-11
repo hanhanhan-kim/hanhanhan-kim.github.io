@@ -1,5 +1,5 @@
 ---
-excerpt: "A simple repair for my aging power strip."
+excerpt: ":cloud_with_lightning: A simple repair for my aging power strip."
 header:
     og_image: /assets/images/posts/2022-07-31-fixing-my-power-strip-usb-charger/reference.jpg
     teaser: /assets/images/posts/2022-07-31-fixing-my-power-strip-usb-charger/reference.jpg

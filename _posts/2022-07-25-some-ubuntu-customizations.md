@@ -6,7 +6,7 @@ header:
     overlay_image: /assets/images/posts/2022-07-25-some-ubuntu-customizations/stock-photo.jpg
 tags: 
     - Tracking
-excerpt: "A running record of some customizations I like to use on Ubuntu."
+excerpt: ":floppy_disk: A running record of some customizations I like to use on Ubuntu."
 ---
 
 Some quick and useful customizations I recommend for Ubuntu:

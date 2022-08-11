@@ -3,7 +3,7 @@ title: Modding a Cheap Keyboard
 tags:
     - HIDs
     - Builds
-excerpt: "Giving a cheap keyboard a makeover!"
+excerpt: ":shopping: Giving a cheap keyboard a makeover!"
 header:
     og_image: /assets/images/posts/2022-07-23-modding-my-friends-keyboard/final-0.jpg
     teaser: /assets/images/posts/2022-07-23-modding-my-friends-keyboard/final-0.jpg

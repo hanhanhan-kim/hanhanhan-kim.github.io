@@ -5,7 +5,7 @@ header:
     header: /assets/images/posts/2022-07-24-my-succulents/set-0.jpg
     overlay_image: /assets/images/posts/2022-07-24-my-succulents/set-1.jpg
     overlay_filter: false
-excerpt: "Some succulents I recently got at a succulent show!"
+excerpt: ":cactus: Some succulents I recently got at a succulent show!"
 tags: 
     - Home
 ---

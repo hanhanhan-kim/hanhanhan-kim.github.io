@@ -8,7 +8,7 @@ header:
     teaser: /assets/images/posts/2022-07-27-making-a-handwired-40s-keyboard/cover.jpg
     header: /assets/images/posts/2022-07-27-making-a-handwired-40s-keyboard/cover.jpg
     overlay_image: /assets/images/posts/2022-07-27-making-a-handwired-40s-keyboard/cover.jpg
-excerpt: "A throwback to the first keyboard I built."
+excerpt: ":metal: A throwback to the first keyboard I built."
 ---
 
 I built my very first keyboard from scratch on March 28, 2021 (a little more than year ago now). It was the [Void 40](https://victorlucachi.ro/projects/void40/), which is a handwired 40%, and I'm actually using it right now to type this post[^1]. When I first built the board, I didn't think I'd actually use it. I thought that, at best, the board would be a fun weekend project that would teach me about matrix circuits, and at worst, it would be a neat talking piece. The keyboard turned out to be so comfortable, however, that I quickly became very smitten with the 40% ortholinear universe. 
