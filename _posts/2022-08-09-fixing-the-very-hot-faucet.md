@@ -59,8 +59,13 @@ The mixing of the hot and cold water is pretty good, but not great. I think if I
 
 {% include figure image_path="/assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/9-2-entire.png" alt="" caption="**A mock-up of the assembly**. I think it looks promising." %}
 
-The resulting print turned out alright. The pieces don't fit super snugly together, but they fit well enough, and everything is functional! I am using more #12 o-rings to fit the pieces together. For now, I'll use the prints as is, because they get the job done. The hot and cold water mix great, and I can easily reach the resulting warm water. Hooray! :tada:
+The resulting print turned out alright. The pieces don't fit super snugly together, but they fit well enough, and everything is functional---the hot and cold water mix great, and I can easily reach the resulting warm water. I am using more #12 o-rings to fit the pieces together.
 
 ![](/assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/10-three-parts.jpg)
 
 ![](/assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/11-works.jpg)
+
+ After using this set-up for a few days, my animal instincts got the best of me, and I decided to improve upon the assembly. I really wanted a nice snug fit between the assembly pieces. So I drafted a different junction:
+
+ {% include figure image_path="/assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/12-new-junction.png" alt="" caption="**A new junction**. I've made the amount of overlap between the adjoining pieces much larger. Note, also, the drainage holes I've added, so that any built-up water will drain." %}
+ 
