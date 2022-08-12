@@ -34,7 +34,7 @@ Most of my parts come from [boardsource.xyz](boardsource.xyz). The only parts I 
     <figcaption>There’s a TRRS jack in this photo, because I was absent-mindedly assembling things. But because I’m doing a wireless build, I removed the TRRS jack later.</figcaption>
     </figure> 
 
-4. **Add the Mill-Max pins.** Alternatively, you can use the leftover legs of through-hole diodes that are common for a lot of keyboard builds. But I think the Mill-Max pins are a lot better, just because they're so much sturider. When adding the Mill-Max pins, it helps to use some needle-nose pliers to hold the pins, and then push them into the sockets. 
+4. **Add the Mill-Max pins.** Alternatively, you can use the leftover legs of through-hole diodes that are common for a lot of keyboard builds. But I think the [Mill-Max pins](https://www.digikey.be/en/products/detail/mill-max-manufacturing-corp/3320-1-00-15-00-00-03-0/4147393) are a lot better, just because they're so much sturider. When adding the Mill-Max pins, it helps to use some needle-nose pliers to hold the pins, and then push them into the sockets. 
 
     ![](/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-3.png)
 
