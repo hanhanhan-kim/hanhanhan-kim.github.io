@@ -23,4 +23,4 @@ useful (but annoying) video: https://www.youtube.com/watch?v=lUzSsX4T4WQ&t=1013s
 default:
 username: admin
 pw: pfsense
-you'll be prompted to change the password. do so, immediately. 
+you'll be prompted to change the password. 

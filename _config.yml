@@ -303,6 +303,7 @@ defaults:
       header:
         overlay_filter: rgba(103, 110, 149, 0.30)
         overlay_color: "#676e95"
+      classes: wide
 
   # _pages
   - scope:
