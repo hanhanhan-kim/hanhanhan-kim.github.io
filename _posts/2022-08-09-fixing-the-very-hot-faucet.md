@@ -5,10 +5,10 @@ tags:
     - Home
 excerpt: ":potable_water: A functional, but perhaps janky, home improvement."
 header:
-    header: /assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/10-three-parts.jpg
-    teaser: /assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/10-three-parts.jpg
-    og_image: /assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/10-three-parts.jpg
-    overlay_image: /assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/10-three-parts.jpg
+    header: /assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/14-works-well.jpg
+    teaser: /assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/14-works-well.jpg
+    og_image: /assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/14-works-well.jpg
+    overlay_image: /assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/14-works-well.jpg
 ---
 
 The place I'm living in is very old, and has some antiquated housing features. Notably, the hot and cold faucets of my washroom are separated, so achieving a comfortable water temperature is near impossible. 
@@ -68,4 +68,11 @@ The resulting print turned out alright. The pieces don't fit super snugly togeth
  After using this set-up for a few days, my animal instincts got the best of me, and I decided to improve upon the assembly. I really wanted a nice snug fit between the assembly pieces. So I drafted a different junction:
 
  {% include figure image_path="/assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/12-new-junction.png" alt="" caption="**A new junction**. I've made the amount of overlap between the adjoining pieces much larger. Note, also, the drainage holes I've added, so that any built-up water will drain." %}
- 
+
+The result seemed pretty decent! The pieces fit together snugly.
+
+ {% include figure image_path="/assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/13-snug-fit.jpg" alt="" caption="**Snug fit**. You can tell that the fits are snug, because the entire assembly is secured together, even though I'm holding it from only one end." %}
+
+The entire assembly fits nicely in the washroom and gets the job done!
+
+![](/assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/14-works-well.jpg)
