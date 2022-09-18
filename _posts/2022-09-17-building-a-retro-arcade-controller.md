@@ -18,7 +18,7 @@ I have a bunch of leftover Kailh low-profile choc v1 switches, from the many key
 
 {% include figure image_path="/assets/images/posts/2022-09-17-building-a-retro-arcade-controller/0.jpg" caption="The printed enclosure with the Kailh low-profile switches popped in."%}
 
-I then tried to pop in the circular keycaps onto the switches, but the stems of the printed keycaps were too thick. I found that I had to file down the stems for all the keycaps. 
+I then tried to press in the circular keycaps onto the switches, but the stems of the printed keycaps were too thick. I found that I had to file down the stems for all the keycaps. 
 
 <figure class="half">
     <a href="/assets/images/posts//2022-09-17-building-a-retro-arcade-controller/1.jpg"><img src="/assets/images/posts//2022-09-17-building-a-retro-arcade-controller/1.jpg"></a>
@@ -55,18 +55,18 @@ After mapping the button functions in the firmware, I plugged in a USB cable, an
 {% include figure image_path="/assets/images/posts/2022-09-17-building-a-retro-arcade-controller/9.jpg" caption="I'm happy with the result! A good gift for a good friend."%}
 
 ## The "Hitbox"
-I had so much fun building my friend's "Slimbox" fight stick, that I decided to build my own. I opted for a slightly different version, however, that doesn't use mechanical keyboard switches. Rather it uses classic round arcade-style buttons, and is dubbed a "Hitbox"-style controller (presumably because it has the same layout as this [super expensive fight stick called a Hitbox](https://www.hitboxarcade.com/)). I printed the enclosure from some [Thingiverse `.stl`s](https://www.thingiverse.com/thing:4888965) in a grey PETG. 
+I had so much fun building my friend's "Slimbox" fight stick, that I decided to build my own. I opted for a slightly different version, however, that doesn't use mechanical keyboard switches. Rather it uses classic round arcade-style buttons, and is dubbed a "Hitbox"-style controller (presumably because it has the same layout as this [super expensive fight stick called a Hitbox](https://www.hitboxarcade.com/)). I printed the enclosure from some [Thingiverse `.stl`s](https://www.thingiverse.com/thing:4888965) in grey PETG. 
 
 {% include figure image_path="/assets/images/posts/2022-09-17-building-a-retro-arcade-controller/11.jpg" caption="The colour reminded me of a North American Super Nintendo system."%}
 
-The grey PETG gave me some strong [Super Nintendo](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) vibes, so I thought maybe I could build my Hitbox with a similar colour scheme. I decided to order some grey, purple, and black Sanwa brand buttons from [Acade Shock](https://arcadeshock.com/). Supposedly, Sanwa buttons are the best in the business, but I am just parroting the internet---I know nothing about this subculture :sman_shrugging:. 
+The grey PETG gave me some strong [Super Nintendo](https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System) vibes, so I thought maybe I could build my Hitbox with a similar colour scheme. I decided to order some grey, purple, and black Sanwa brand buttons from [Acade Shock](https://arcadeshock.com/). Supposedly, Sanwa buttons are the best in the business, but I am just parroting the internet---I know nothing about this subculture :man_shrugging:. 
 
 {% include figure image_path="/assets/images/posts/2022-09-17-building-a-retro-arcade-controller/10.jpg" caption="Some extra crispy buttons! They came in just 2 days' time."%}
 
 I then pushed the buttons into the enclosure cut-outs, and they snapped into place in a very satisfying manner. 
 
 <figure class="half">
-    <a href="/assets/images/posts//2022-09-17-building-a-retro-arcade-controller/15.jpg"><img src="/assets/images/posts//2022-09-17-building-a-retro-arcade-controller/15.jpg"></a>
+    <a href="/assets/images/posts/2022-09-17-building-a-retro-arcade-controller/15.jpg"><img src="/assets/images/posts/2022-09-17-building-a-retro-arcade-controller/15.jpg"></a>
     <a href="/assets/images/posts/2022-09-17-building-a-retro-arcade-controller/12.jpg"><img src="/assets/images/posts/2022-09-17-building-a-retro-arcade-controller/12.jpg"></a>
     <figcaption>Looks good with the buttons popped into the enclosure! The purple colour is not nearly as dark as I'd want them to be, but everything still looks good, I think</figcaption>
 </figure>
