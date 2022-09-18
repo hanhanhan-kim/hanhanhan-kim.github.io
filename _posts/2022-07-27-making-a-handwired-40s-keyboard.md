@@ -151,7 +151,7 @@ We can finally close up the case and screw everything together! Use the counters
 
 [^2]: [This blog post](https://www.ghost7.com/3d-printed-hand-wired-40-keyboard/) by Blake Dryson was super useful, and is what I primarily relied on to make this build. [This post](https://www.crackedthecode.co/a-complete-guide-to-building-a-hand-wired-keyboard/), [this post](https://www.masterzen.fr/2018/12/16/handwired-keyboard-build-log-part-1/), [this post](https://matt3o.com/hand-wiring-a-custom-keyboard/), [this Geekhack post](https://geekhack.org/index.php?topic=87689.0) and the [official QMK guide on GitHub](https://github.com/qmk/qmk_firmware/blob/master/docs/hand_wire.md) were also all useful to me.
 
-[^3]: An explanation of QMK and the steps involved to compile and flash a QMK keymap is outside the scope of this blog post. I _might_ write something about QMK in the future, but in the meantime, I suggest you peruse the excellent [QMK docs](https://docs.qmk.fm/#/). 
+[^3]: An explanation of QMK and the steps involved to compile and flash a QMK keymap is outside the scope of this blog post. I _might_ write something about QMK in the future, but in the meantime, I suggest you peruse the excellent [QMK docs](https://docs.qmk.fm/#/). My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/handwired/void40).
 
 
 

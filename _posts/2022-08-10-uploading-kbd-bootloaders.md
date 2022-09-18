@@ -75,4 +75,56 @@ The result of the above command should look something like terminal output below
 
 You might be a little confused though, because the Plaid keyboard's power LED won't be lit. No worries though, just power cycle the keyboard---unplug and replug the USB cable. The keyboard's power LED should now be lit. At this point, the bootloader is correctly loaded onto the keyboard, and we can upload QMK firmware via USB :tada:. Just run `qmk flash -kb dm9records/plaid`, and then either hit the BOOT switch, or if you have a key mapped to [`QK_BOOT`](https://docs.qmk.fm/#/quantum_keycodes?id=qmk-keycodes), press that key. In other words, flash the keyboard like normal :smile:. 
 
-<!-- ## Torn -->
+## Torn
+
+In general, the documentation for the Torn keyboard is very good. The docs also include a detailed page on [how to flash the bootloader](https://github.com/rtitmuss/torn/blob/master/doc/bootloader.md). 
+
+Purchase a USBasp programmer with an ICSP pin adaptor (ASIN [B0885RKVMC](https://www.amazon.com/KeeYees-Downloader-Programmer-Adapter-Microcontroller/dp/B0885RKVMC/ref=sr_1_4?crid=3RBGKUJSWRSK&keywords=usbasp+bootloader&qid=1660188847&sprefix=usbasp+bootloader%2Caps%2C111&sr=8-4)). 
+
+Git clone the `torn` branch of `rtitmuss`'s `USBaspLoader` fork:
+
+```bash
+git clone -b torn https://github.com/rtitmuss/USBaspLoader.git
+```
+Rename the directory from `UsbaspLoader` to `USBaspLoader-torn`, just so you don't get confused if you have to upload the bootloader for other keyboards via USBasp. Then, `cd` into the root of the `USBaspLoader-torn` directory. Open up the `Makefile.inc` file with your favourite text editor. Observe lines 39-41 of the `Makefile.inc`:
+
+```make
+# PROGRAMMER = -c pony-stk200
+# PROGRAMMER = -c usbasp
+PROGRAMMER = -c avrisp -P /dev/cu.usbmodem* -b19200
+```
+
+Change the `PROGRAMMER` to `-c usbasp`, because we're using a USBasp bootloader:
+
+```make
+# PROGRAMMER = -c pony-stk200
+PROGRAMMER = -c usbasp
+# PROGRAMMER = -c avrisp -P /dev/cu.usbmodem* -b19200
+```
+
+Connect the ICSP cable from the USBasp programmer device, to the 6-pin ICSP header on the right-handed Torn PCB. 
+
+{% include figure image_path="/assets/images/posts/2022-08-10-kbd-bootloaders/torn-connection.jpg" alt="" caption="Note the orientation of the ICSP cable. The VCC pin of the USBasp device is on the bottom right pin." %}
+
+Do not yet plug in the USB cable. Only the ICSP cable should be plugged in. From `USBaspLoader-torn`, which has the `makefile.inc` file, run the following:
+
+```bash
+make
+make flash
+make fuse
+```
+
+Unplug the ICSP header, and plug in the USB cable. Then, do the following so the keyboard knows that it's about to receive some new firmware:
+
+1. Push and hold the RESET switch.
+2. Push and hold the BOOST switch.
+3. Release the RESET switch.
+4. Release the BOOT switch. 
+
+Then, navigate to your `qmk_firmware` directory, and flash the Torn's firmware like you would for any QMK-compatible keyboard:
+
+```bash
+qmk flash -kb torn
+```
+
+Unplug the keyboard, and then plug it back in. Yay! :tada:

@@ -11,6 +11,10 @@ excerpt: ":spider_web: My first time building and using a Router. Powered by pfS
 #     overlay_image: /assets/images/posts/2022-08-06-fixing-my-very-hot-faucet/10-three-parts.jpg
 ---
 
+In this post, I document my build of a pfSense-powered router. The router works great for any kind of LAN connection, but my current network configuration prohibits the installation of a subnetwork, downstream of the apartment building's main router. 
+
+
+
 Note about VGA meaning:
 https://www.reddit.com/r/PFSENSE/comments/t0s2qv/vga_needed_i_noticed_the_download_option_for/
 

@@ -54,6 +54,8 @@ In the end I discarded a lot of the work I put in the keyboard. Rather than over
 {% include figure image_path="/assets/images/posts/2022-07-22-modding-the-atlas-keyboard/final-mod.png" alt="" caption="In the end, I only wound up using only the PE foam cutouts and the nylon screws + silicone o-rings for my mods." %}
 
 ## Build Details
-I added some stock Zaku linears from Bolsa Supply (they wold out in 15 minutes ...) and Drop's new black-on-white DCX keycaps. I think the final result is pretty good! I'm not 100 on the Zakus for this build though ... maybe I should replace them for some lubed + filmed Gateron Ink Black V2s, just because there's some empty space in this board, which helps create a lower pitch, and the Ink Blacks are inherently lower-pitched. 
+I added some stock Zaku linears from Bolsa Supply (they sold out in 15 minutes ...) and Drop's new black-on-white DCX keycaps. I think the final result is pretty good! I'm not 100 on the Zakus for this build though ... maybe I should replace them for some lubed + filmed Gateron Ink Black V2s, just because there's some empty space in this board, which helps create a lower pitch, and the Ink Blacks are inherently lower-pitched. 
 
 ![](/assets/images/posts/2022-07-22-modding-the-atlas-keyboard/final.jpg)
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/blob/master/keyboards/cannonkeys/atlas/keymaps/hanhanhan-kim/keymap.c).

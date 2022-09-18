@@ -24,30 +24,42 @@ My first mechanical keyboard, as well as my first 40% keyboard, and ortholinear 
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/void40.png" alt="" caption="QMK, wired, + rotary encoder" %}
 
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/handwired/void40).
+
 ### Planck
 TODO
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/planck.png" alt="" caption="QMK, wired, + rotary encoder, + RGB, + music (e.g. MIDI)" %}
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/planck/keymaps/hanhanhan-kim).
 
 ### Bloid 40
 TODO
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/bloid40.png" alt="" caption="QMK, Bluetooth" %}
 
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/handwired/bloid40).
+
 ### Plaid (USB-C variant)
 TODO
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/plaidc_and_technik.png" alt="" caption="QMK, wired (same as Technik)" %}
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/dm9records/plaid/keymaps/hanhanhan-kim).
 
 ### Technik 
 TODO
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/plaidc_and_technik.png" alt="" caption="QMK, wired (same as Plaid)" %}
 
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/boardsource/technik_o/keymaps/hanhanhan-kim).
+
 ### Atlas
 TODO
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/atlas.png" alt="" caption="QMK, wired, + RGB, + extra row" %}
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/blob/master/keyboards/cannonkeys/atlas/keymaps/hanhanhan-kim/keymap.c).
 
 ## Split Keyboards
 
@@ -57,9 +69,13 @@ TODO
 ### Torn
 TODO
 
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/torn/keymaps/hanhanhan-kim).
+
 ### Corne
 My first split keyboard, and my first [ZMK](zmk.dev) build! I chose ZMK as my firmware framework because I wanted to build a 'true' split wireless build, where both halves are wireless, but would be read as a single device, as opposed to two separate devices (which is weird, because each keyboard half actually has its own µC). 
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/corne.png" alt="" caption="ZMK, true wireless" %}
+
+My ZMK-powered firmware is [here](https://github.com/hanhanhan-kim/zmk-config/blob/master/config/corne.keymap).
 
 ### Oddball

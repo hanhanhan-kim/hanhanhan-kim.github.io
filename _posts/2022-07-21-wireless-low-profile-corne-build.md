@@ -110,6 +110,8 @@ Tada! :tada: Admire your good work! Use [ZMK](https://zmk.dev/) to upload firmwa
   <a href="#"><img src="{{ '/assets/images/posts/2022-07-21-wireless-low-profile-corne-build/fig-16.jpg' | absolute_url }}" alt=""></a>
 </figure> 
 
+My ZMK-powered firmware is [here](https://github.com/hanhanhan-kim/zmk-config/blob/master/config/corne.keymap).
+
 ## Future Improvements
 I think I'd make the following improvements, if I had to do this build again:
 
