@@ -151,7 +151,7 @@ By default, fans that are plugged into the motherboard will ramp up based on CPU
 Everyone in the SFFPC world recommends undervolting the GPU. Undervolting the GPU results in quieter and cooler operation, with no cost to performance. Again, Optimum Tech explains how to undervolt the GPU in [this video at 21:36](https://www.youtube.com/watch?v=Za0kx7hBeHc&t=1296s). We require a softare called [MSI Afterburner](https://afterburners-msi.com/en/Afterburner.html?gclid=CjwKCAjwg5uZBhATEiwAhhRLHv5LlaFr85ASJFyvH_DIyTouc8-LeeGJDlb4gv8D9ItCsIutwv04_xoC9mYQAvD_BwE). 
 
 Here are my GPU undervolting settings:
-{% include figure image_path="/assets/images/posts/2022-09-18-building-a-sffpc/undervolting.png" caption="My GPU undervolt curve in MSI Afterburner."%}
+{% include figure image_path="/assets/images/posts/2022-09-18-building-a-sffpc/undervolt.png" caption="My GPU undervolt curve in MSI Afterburner."%}
 
 ## Future Improvements
 
