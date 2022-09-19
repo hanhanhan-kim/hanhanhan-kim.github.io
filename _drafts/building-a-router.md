@@ -2,6 +2,7 @@
 title: Building a Router
 tags: 
     - Builds
+    - Computers
     - Homelab
 excerpt: ":spider_web: My first time building and using a Router. Powered by pfSense."
 # header:
