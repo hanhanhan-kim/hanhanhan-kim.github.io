@@ -30,7 +30,7 @@ The FormD T1 comes in three possible layouts: the reference layout, the tower la
 ## Testing the Power Supply
 I'm using a [Corsair SF750 power supply](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020186-NA), which is probably the most popular ITX form factor PSU. Before assembling all my parts together, I tested the integrity of the PSU with a [PSU tester](https://www.amazon.com/gp/product/B076CLNPPK/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1), for my peace of mind. I connected the various pins from the PSU to the PSU tester, and checked that the voltage readings were all correct. 
 
-![](/assets/images/posts/2022-09-18-building-a-sffpc/21.jpg")
+![](/assets/images/posts/2022-09-18-building-a-sffpc/1.jpg)
 
 ## Assembling the Motherboard
 I'm using an [AMD Ryzen 9 3900X](https://www.amd.com/en/product/8436) as my CPU with a [Gigabyte B550I Aorus Pro AX](https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-rev-10/sp#sp) motherboard. 
@@ -161,6 +161,22 @@ All in all, I'm very happy with the build! I think the only thing I might want t
     <a href="/assets/images/posts/2022-09-18-building-a-sffpc/51.jpg"><img src="/assets/images/posts/2022-09-18-building-a-sffpc/51.jpg"></a>
     <figcaption>You can see the white power LED glowing in the second picture.</figcaption>
 </figure>
+## Parts Summary
+
+| Item         | Part                                                         |
+| ------------ | ------------------------------------------------------------ |
+| Case         | [FormD T1 Sandwich Kit](https://formdworks.com/products/t1-sandwich-kit-black-color) |
+| PSU          | [Corsair SF750 power supply](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020186-NA) |
+| CPU          | [AMD Ryzen 9 3900X](https://www.amd.com/en/product/8436)     |
+| CPU Cooler   | [Noctua NH-L12 (Ghost S1 Edition)](https://noctua.at/en/nh-l12-ghost-s1-edition) |
+| Motherboard  | [Gigabyte B550I Aorus Pro AX](https://www.gigabyte.com/Motherboard/B550I-AORUS-PRO-AX-rev-10/sp#sp) |
+| RAM          | [Corsair Vengeance LPX 64GB (2 x 32GB) DDR4 DRAM 3200MHz](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE-LPX/p/CMK64GX4M2E3200C16) |
+| SSD          | [Samsung 970 Evo Plus 1 TB](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-evo-plus-nvme-m-2-1-tb-mz-v7s1t0b-am/) |
+| GPU          | [MSI RTX 3070 Ventus 2X](https://us.msi.com/Graphics-Card/GeForce-RTX-3070-VENTUS-2X-OC) |
+| PCIe riser   | [Louqe PCIe 4.0 riser cable](https://shop.louqe.com/products/cobalt-rc260-twinax-gen4-pci-e-4-0-riser-cable) |
+| Exhaust Fans | Two [Noctua NH A12x25  fans](https://noctua.at/en/nf-a12x25-pwm) |
+| Power Switch | [Ulincos Momentary Pushbutton Switch U19D1 1NO SPST for 19 mm mounting hole](https://www.amazon.com/gp/product/B017KPM0SC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) |
 
 ## Footnotes
+
 [^1]: You can still build very poweful computers in ITX cases, without creating the world's desnsest space heater. In many ways, the engineering challenge of trying to build the most powerful computer in the smallest space is what draws people into the SFFPC world. People have come up with clever ways of efficiently disippating heat from even the most power hungry hardware. 
