@@ -161,6 +161,7 @@ All in all, I'm very happy with the build! I think the only thing I might want t
     <a href="/assets/images/posts/2022-09-18-building-a-sffpc/51.jpg"><img src="/assets/images/posts/2022-09-18-building-a-sffpc/51.jpg"></a>
     <figcaption>You can see the white power LED glowing in the second picture.</figcaption>
 </figure>
+
 ## Parts Summary
 
 | Item         | Part                                                         |
