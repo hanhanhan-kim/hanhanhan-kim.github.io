@@ -25,9 +25,9 @@ In `keymap.c`:
 #define SFT_K RSFT_T(KC_K)
 #define ALT_L LALT_T(KC_L)
 #define GUI_SCLN RGUI_T(KC_SCLN)
+```
 
-...
-
+```c
 // Custom per-key tapping terms for GASC homerow mods:
 uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
@@ -44,3 +44,12 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     }
 }
 ```
+Useful documentation on how to develop off the QMK source code:
+
+https://github.com/qmk/qmk_firmware/blob/master/docs/newbs_git_using_your_master_branch.md
+
+
+I always forget that for ZMK, the act of committing and pushing into GitHub generates the actual firmware (.uf2 files) via GitHub actions, which we can then download. 
+
+Homerow Mods:
+https://precondition.github.io/home-row-mods

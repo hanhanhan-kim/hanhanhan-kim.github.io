@@ -24,58 +24,119 @@ My first mechanical keyboard, as well as my first 40% keyboard, and ortholinear 
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/void40.png" alt="" caption="QMK, wired, + rotary encoder" %}
 
-My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/handwired/void40).
+Keycaps are TODO. 
+Plate is TODO.
+Switches are TODO.
+Mounting style is TODO. 
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/handwired/void40). TODO UPDATE THIS LINK
+
+&mu;c: ATMmega 32U4 on a [Sparkfun Qwiic Pro Micro USB-C](https://www.digikey.com/en/products/detail/sparkfun-electronics/DEV-15795/11594572) breakout board.
+
+Keymap updated 2023/10/15.
 
 ### Planck
 TODO
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/planck.png" alt="" caption="QMK, wired, + rotary encoder, + RGB, + music (e.g. MIDI)" %}
 
-My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/planck/keymaps/hanhanhan-kim).
+Keycaps are TODO. 
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/planck/keymaps/hanhanhan-kim). TODO UPDATE THIS LINK
+
+&mu;c: ARM STM32 integrated into the main PCB. homero
+
+Keymap updated 2023/10/15.
 
 ### Bloid 40
 TODO
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/bloid40.png" alt="" caption="QMK, Bluetooth" %}
 
-My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/handwired/bloid40).
+Keycaps are TODO. 
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/handwired/bloid40). TODO UPDATE THIS LINK
+
+&mu;c: ATMmega 32U4 on an [Adafruit Feather 32U4 Bluefruit](https://www.digikey.com/en/products/detail/adafruit-industries-llc/2829/5774320) breakout board. Uses BLE 2.4 GHz with a nRF51822 transceiver. 
+
+Keymap updated 2023/10/15.
 
 ### Plaid (USB-C variant)
 TODO
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/plaidc_and_technik.png" alt="" caption="QMK, wired (same as Technik)" %}
 
-My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/dm9records/plaid/keymaps/hanhanhan-kim).
+Keycaps are TODO. 
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/dm9records/plaid/keymaps/hanhanhan-kim). TODO UPDATE THIS LINK
+
+&mu;c: ATmega328P integrated into the main PCB. 
+
+Keymap updated 2023/10/19.
 
 ### Technik 
 TODO
 
-{% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/plaidc_and_technik.png" alt="" caption="QMK, wired (same as Plaid)" %}
+{% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/plaidc_and_technik.png" alt="" caption="QMK, wired, + RGB matrix" %}
 
-My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/boardsource/technik_o/keymaps/hanhanhan-kim).
+Keycaps are TODO. 
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/boardsource/technik_o/keymaps/hanhanhan-kim). TODO UPDATE THIS LINK
+
+&mu;c: TODO (STM something) integrated into the main PCB. 
+
+Keymap updated 2023/10/19.
 
 ### Atlas
 TODO
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/atlas.png" alt="" caption="QMK, wired, + RGB, + extra row" %}
 
-My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/blob/master/keyboards/cannonkeys/atlas/keymaps/hanhanhan-kim/keymap.c).
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/blob/master/keyboards/cannonkeys/atlas/keymaps/hanhanhan-kim/keymap.c). TODO UPDATE THIS LINK
+
+&mu;c: STM32F072C0T6 integrated into the main PCB. As of 2023/10/21, this particular STM32 chip requires using a USB hub when flashing the keyboard (thanks QMK Discord for solving this one). Hardware is strange. 
+
+### Brane
+
+#TODO: pic
+
+My QMK-powered firmware is [here](TODO: the brick QMK firmware) '
+
+&mu;c: ATMega32U4 integrated into the main PCB. 
+
+Keymap updated 2023/10/19.
+
+<!-- ### Gridiron
+
+### Plasticity
+
+### Oddball
+
+### Boardwalk -->
+
+
 
 ## Split Keyboards
-
-### Let's Split
-TODO
 
 ### Torn
 TODO
 
-My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/torn/keymaps/hanhanhan-kim).
+TODO: pic
+
+Keycaps are TODO. 
+
+
+
+My QMK-powered firmware is [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/master/keyboards/torn/keymaps/hanhanhan-kim). TODO UPDATE THIS LINK
 
 ### Corne
 My first split keyboard, and my first [ZMK](zmk.dev) build! I chose ZMK as my firmware framework because I wanted to build a 'true' split wireless build, where both halves are wireless, but would be read as a single device, as opposed to two separate devices (which is weird, because each keyboard half actually has its own µC). 
 
 {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/corne.png" alt="" caption="ZMK, true wireless" %}
 
-My ZMK-powered firmware is [here](https://github.com/hanhanhan-kim/zmk-config/blob/master/config/corne.keymap).
+My ZMK-powered firmware is [here](https://github.com/hanhanhan-kim/zmk-config/blob/master/config/corne.keymap). TODO UPDATE THIS LINK
 
 ### Oddball
+
+<!-- ### Let's Split
+TODO -->
