@@ -6,8 +6,6 @@ author_profile: true
 ---
 Welcome to my personal website! :smiley:
 
-Here, I showcase projects I've designed and created, in addition to documenting my builds of other people's projects. I also store 'how-to's and other references. I might voice the occasional thought, as well (tbd). 
-
-Hope you enjoy!
+Enjoy!
 
 ![](/assets/images/calvin_and_hobbes_homepage.png)
