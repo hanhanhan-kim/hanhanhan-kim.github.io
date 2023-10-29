@@ -31,7 +31,7 @@ My first mechanical keyboard, as well as my first 40%  and ortholinear keyboard.
 
 **&mu;c:** ARM STM32 integrated into the main PCB. 
 
-I used the PCB from the popular Planck, but I use the "[Unified Daughterboard Project](https://github.com/Unified-Daughterboard/)" to separate out the USB-C port from the rest of the PCB. Doing so enabled me to gasket-mount the 'motherboard' PCB, such that during typing use, the motherboard can 'bounce' on the gasket, without also bouncing the USB port (motherboard + daughterboard format breaks the rigid relationship between the USB port and the rest of the keyboard). I designed the case from scratch, and had it machined at (JLCPCB)[https://3d.jlcpcb.com/cnc-machining]. I provide open-sourced files for the case design [here](https://github.com/hanhanhan-kim/kbd-cases/tree/main/planckeneko). 
+I used the PCB from the popular Planck, but I use the "[Unified Daughterboard Project](https://github.com/Unified-Daughterboard/)" to separate out the USB-C port from the rest of the PCB. Doing so enabled me to gasket-mount the 'motherboard' PCB, such that during typing use, the motherboard can 'bounce' on the gasket, without also bouncing the USB port (motherboard + daughterboard format breaks the rigid relationship between the USB port and the rest of the keyboard). I designed the case from scratch, and had it machined at [JLCPCB](https://3d.jlcpcb.com/cnc-machining). I provide open-sourced files for the case design [here](https://github.com/hanhanhan-kim/kbd-cases/tree/main/planckeneko). 
 
 <!-- {% include figure image_path="/assets/images/posts/2022-07-23-my-keyboards/keymaps/planck.png" alt="" caption="QMK, wired, + rotary encoder, + RGB, + music (e.g. MIDI)" %} -->
 
@@ -61,7 +61,7 @@ This keyboard is the [USB-C fork of the popular Plaid keyboard](https://github.c
 
 ## Atlas
 
-{% include figure image_path="/assets/images/posts/2023-10-28-my-keyboards/kbd_photos/atlas.jpg" alt="" caption="Keycaps are [Drop DCX black-on-white keycaps](https://drop.com/buy/drop-dcx-black-on-white-keycap-set?searchId=d09c2b00dd9c2ef7c3ecef39c6a6606b&defaultSelectionIds=967335), switches are [Bolsa Supply Techno Violets](https://bolsakeyboardsupply.com/collections/switches/products/techno-violet-switches) (linear, 36 g then 58 g double-stage actuation force), plate is brass, mounting style is top mounted, mod is [StupidFish EVA plate foam set designed for Preonic](https://stupidfish.design/products/preonic-v3-case-and-plate-foam-set)." %}
+{% include figure image_path="/assets/images/posts/2023-10-28-my-keyboards/kbd_photos/atlas.jpg" alt="" caption="Keycaps are [ePBT x GOK Kuro/Shiro keycaps](https://kbdfans.com/products/kuro-shiro-r3), switches are [Gazzew Boba U4Ts](https://swagkeys.com/products/gazzew-u4t-boba-switches?variant=43620145168637) (tactile, 62 g actuation force),, plate is brass, mounting style is top mounted, mods are [StupidFish EVA plate foam set designed for Preonic](https://stupidfish.design/products/preonic-v3-case-and-plate-foam-set) and painter's tape on PCB." %}
 
 **My QMK-powered firmware:** [here](https://github.com/hanhanhan-kim/qmk_firmware/tree/hank/keyboards/cannonkeys/atlas/keymaps/hanhanhan-kim).
 
@@ -117,7 +117,7 @@ The PCB for [this keyboard](https://fingerpunch.xyz/product/faux-fox-keyboard/) 
 
 ## Libra Mini
 
-{% include figure image_path="/assets/images/posts/2023-10-28-my-keyboards/kbd_photos/libra_mini.jpg" alt="" caption="Keycaps are clones of [ePBT cool kids](https://candykeys.com/group-buys/epbt-cool-kids), switches are [Gazzew Boba U4Ts](https://swagkeys.com/products/gazzew-u4t-boba-switches?variant=43620145168637) (tactile, 65 g actuation force), plate is acrylic, mounting style is gasket mount, mods are painter's tape on PCB and case weighting with car muffler." %}
+{% include figure image_path="/assets/images/posts/2023-10-28-my-keyboards/kbd_photos/libra_mini.jpg" alt="" caption="Keycaps are clones of [ePBT cool kids](https://candykeys.com/group-buys/epbt-cool-kids), switches are [Gazzew Boba U4Ts](https://swagkeys.com/products/gazzew-u4t-boba-switches?variant=43620145168637) (tactile, 62 g actuation force), plate is acrylic, mounting style is gasket mount, mods are painter's tape on PCB and case weighting with car muffler." %}
 
 **My QMK-powered firmware:** :construction:
 
